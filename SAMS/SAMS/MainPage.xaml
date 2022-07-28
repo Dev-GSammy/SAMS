@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SAMS"
              x:Class="SAMS.MainPage">
 
     <StackLayout BackgroundColor="AntiqueWhite">
@@ -22,9 +23,9 @@
         <Label Text="Student Attendance" TextColor="Blue" Margin="10,10,10,0" HorizontalTextAlignment="Center" FontSize="36" FontFamily="Arial black" FontAttributes="Bold"/>
         <Label Text="Management System" TextColor="Blue" Margin="10,0" HorizontalTextAlignment="Center" FontSize="36" FontFamily="Arial black" FontAttributes="Bold"/>
         <Image x:Name="SplashScreenImage"
-               Aspect="AspectFit"
+               Aspect="AspectFill"
                Margin="10,20,10,10"
-               HorizontalOptions="Center"/>
+               HorizontalOptions="FillAndExpand"/>
         <Entry x:Name="nameEntry"
                Margin="20,10,20,5"
                Placeholder="Username"/>

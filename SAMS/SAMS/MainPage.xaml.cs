@@ -13,9 +13,9 @@ namespace SAMS
         public MainPage()
         {
             InitializeComponent();
-            var assembly = typeof(MainPage).Assembly;
+            var assembly = typeof(MainPage);
 
-            SplashScreenImage.Source = ImageSource.FromResource("SAMS.Assets.Images.splash_image.png", assembly);
+            SplashScreenImage.Source = ImageSource.FromResource("SAMS.Assets.Images.splash.png", assembly);
         }
         
     }
