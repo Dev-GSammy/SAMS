@@ -28,9 +28,13 @@
                HorizontalOptions="FillAndExpand"/>
         <Entry x:Name="nameEntry"
                Margin="20,10,20,5"
+               PlaceholderColor="DimGray"
+               TextColor="DodgerBlue"
                Placeholder="Username"/>
         <Entry x:Name="passwordEntry"
                Margin="20,0,20,5"
+               PlaceholderColor="DimGray"
+               TextColor="DodgerBlue"
                Placeholder="Password"/>
     </StackLayout>
 </ContentPage>
