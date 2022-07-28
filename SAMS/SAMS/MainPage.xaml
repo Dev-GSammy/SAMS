@@ -4,7 +4,8 @@
              x:Class="SAMS.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+        
+        <!--<Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
@@ -19,6 +20,7 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+        !-->
     </StackLayout>
 
 </ContentPage>
