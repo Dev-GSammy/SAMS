@@ -3,9 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SAMS.MainPage">
 
-    <StackLayout>
-        
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+    <StackLayout BackgroundColor="AntiqueWhite">
+        <!--<Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
@@ -19,8 +18,18 @@
                     </FormattedString.Spans>
                 </FormattedString>
             </Label.FormattedText>
-        </Label>
-        
+        </Label>-->
+        <Label Text="Student Attendance" TextColor="Blue" Margin="10,10,10,0" HorizontalTextAlignment="Center" FontSize="36" FontFamily="Arial black" FontAttributes="Bold"/>
+        <Label Text="Management System" TextColor="Blue" Margin="10,0" HorizontalTextAlignment="Center" FontSize="36" FontFamily="Arial black" FontAttributes="Bold"/>
+        <Image x:Name="SplashScreenImage"
+               Aspect="AspectFit"
+               Margin="10,20,10,10"
+               HorizontalOptions="Center"/>
+        <Entry x:Name="nameEntry"
+               Margin="20,10,20,5"
+               Placeholder="Username"/>
+        <Entry x:Name="passwordEntry"
+               Margin="20,0,20,5"
+               Placeholder="Password"/>
     </StackLayout>
-
 </ContentPage>
