@@ -18,6 +18,10 @@ namespace SAMS
             SplashScreenImage.Source = ImageSource.FromResource("SAMS.Assets.Images.splashpage.png", assembly);
 
         }
-        
+
+        private void LoginButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new StudorLecRegistration());
+        }
     }
 }

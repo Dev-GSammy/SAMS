@@ -45,6 +45,7 @@
                TextColor="Black"
                Placeholder="Password"/>
         <Button x:Name="LoginButton"
+                Clicked="LoginButton_Clicked"
                 Text="Login"
                 FontSize="22"
                 BackgroundColor="Blue"
