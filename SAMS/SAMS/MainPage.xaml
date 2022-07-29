@@ -52,17 +52,13 @@
                 Margin="10,10,10,0"/>
         <Grid Margin="10">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="3*"/>
             </Grid.RowDefinitions>
         </Grid>
-        <Button Text="New? Register" Grid.Column="0" Grid.Row="1" HorizontalOptions="End" FontSize="15" TextColor="Blue" BackgroundColor="AntiqueWhite"/>
-        <Button Text="Forgot Password?" Grid.Column="1" Grid.Row="1" HorizontalOptions="EndAndExpand" FontSize="15" TextColor="Blue" BackgroundColor="AntiqueWhite"/>
+        <Button Text="New? Register" Grid.Column="0" Grid.Row="1" FontSize="15" TextColor="Blue" BackgroundColor="AntiqueWhite"/>
+        <Button Text="Forgot Password?" Grid.Column="1" Grid.Row="1" FontSize="15" TextColor="Blue" BackgroundColor="AntiqueWhite"/>
     </StackLayout>
 </ContentPage>
