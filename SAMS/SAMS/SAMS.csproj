@@ -11,7 +11,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Images\splash.png" />
+    <None Remove="Assets\Images\splashpage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\splashpage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\splash.png" />
   </ItemGroup>
 </Project>
