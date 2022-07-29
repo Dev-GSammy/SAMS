@@ -50,5 +50,19 @@
                 BackgroundColor="Blue"
                 HorizontalOptions="FillAndExpand"
                 Margin="10,10,10,0"/>
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+        </Grid>
+        <Button Text="New? Register" Grid.Column="0" Grid.Row="1" HorizontalOptions="End" FontSize="15" TextColor="Blue" BackgroundColor="AntiqueWhite"/>
+        <Button Text="Forgot Password?" Grid.Column="1" Grid.Row="1" HorizontalOptions="EndAndExpand" FontSize="15" TextColor="Blue" BackgroundColor="AntiqueWhite"/>
     </StackLayout>
 </ContentPage>
