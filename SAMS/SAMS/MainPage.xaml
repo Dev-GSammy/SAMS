@@ -36,13 +36,13 @@
                FontSize="20"
                Margin="20,10,20,5"
                PlaceholderColor="DimGray"
-               TextColor="DodgerBlue"
+               TextColor="Black"
                Placeholder="Username"/>
         <Entry x:Name="passwordEntry"
                FontSize="20"
                Margin="20,0,20,5"
                PlaceholderColor="DimGray"
-               TextColor="DodgerBlue"
+               TextColor="Black"
                Placeholder="Password"/>
         <Button x:Name="LoginButton"
                 Text="Login"
@@ -52,10 +52,14 @@
                 Margin="10,10,10,0"/>
         <Grid Margin="10">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="3*"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
         </Grid>
         <Button Text="New? Register" Grid.Column="0" Grid.Row="1" FontSize="15" TextColor="Blue" BackgroundColor="AntiqueWhite"/>
