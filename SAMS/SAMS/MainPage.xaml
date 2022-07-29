@@ -20,21 +20,35 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>-->
-        <Label Text="Student Attendance" TextColor="Blue" Margin="10,10,10,0" HorizontalTextAlignment="Center" FontSize="36" FontFamily="Arial black" FontAttributes="Bold"/>
-        <Label Text="Management System" TextColor="Blue" Margin="10,0" HorizontalTextAlignment="Center" FontSize="36" FontFamily="Arial black" FontAttributes="Bold"/>
+        <Label Text="Student Attendance" TextColor="Blue" Margin="10,30,10,0" HorizontalTextAlignment="Center" FontSize="36" FontFamily="Arial black" FontAttributes="Bold"/>
+        <Label Text="Management System" TextColor="Blue" Margin="10,0,10,50" HorizontalTextAlignment="Center" FontSize="36" FontFamily="Arial black" FontAttributes="Bold"/>
         <Image x:Name="SplashScreenImage"
-               Aspect="AspectFill"
+               Aspect="AspectFit"
                Margin="10,20,10,10"
                HorizontalOptions="FillAndExpand"/>
+        <Label Text="Welcome"
+               HorizontalOptions="Center"
+               Margin="0,20,0,50"
+               TextColor="DodgerBlue"
+               FontSize="25"
+               FontAttributes="Bold"/>
         <Entry x:Name="nameEntry"
+               FontSize="20"
                Margin="20,10,20,5"
                PlaceholderColor="DimGray"
                TextColor="DodgerBlue"
                Placeholder="Username"/>
         <Entry x:Name="passwordEntry"
+               FontSize="20"
                Margin="20,0,20,5"
                PlaceholderColor="DimGray"
                TextColor="DodgerBlue"
                Placeholder="Password"/>
+        <Button x:Name="LoginButton"
+                Text="Login"
+                FontSize="22"
+                BackgroundColor="Blue"
+                HorizontalOptions="FillAndExpand"
+                Margin="10,10,10,0"/>
     </StackLayout>
 </ContentPage>
