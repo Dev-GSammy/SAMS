@@ -7,16 +7,18 @@
            IsLightDismissEnabled="False"
            HorizontalOptions="Center"
            VerticalOptions="Center"
-           BackgroundColor="AntiqueWhite"
+           Color="Transparent"
            xct:CornerRadiusEffect.CornerRadius="15">
-    <StackLayout Margin="10" BackgroundColor="AntiqueWhite">
+    <StackLayout Margin="10" BackgroundColor="AntiqueWhite" xct:CornerRadiusEffect.CornerRadius="30">
         <Button x:Name="ClosePopup"
                 Text="Close"
-                TextTransform="Default"
+                TextTransform="Lowercase"
+                BorderWidth="0"
                 BackgroundColor="AntiqueWhite"
                 TextColor="Blue"
                 HorizontalOptions="End"
-                Margin="5"
+                Margin="0"
+                Padding="0"
                 Clicked="ClosePopup_Clicked"/>
         <Label Text="Choose your Category"
                FontSize="25"
@@ -27,32 +29,34 @@
                BackgroundColor="Transparent"/>
         <Button x:Name="RegAsStudent" 
                 Text="Student"
+                FontAttributes="Bold"
                 BackgroundColor="Blue"
                 TextColor="White"
-                HorizontalOptions="CenterAndExpand"
+                FontSize="18"
+                HorizontalOptions="FillAndExpand"
                 Margin="5"
                 Clicked="RegAsStudent_Clicked"
                 />
         <Button x:Name="RegAsLecturer" 
                 Text="Lecturer"
-                TextTransform="Default"
+                FontAttributes="Bold"
+                FontSize="18"
                 BackgroundColor="Blue"
                 TextColor="White"
-                HorizontalOptions="CenterAndExpand"
+                HorizontalOptions="FillAndExpand"
                 Margin="5"
                 Clicked="RegAsLecturer_Clicked"
                 />
-        <Label Text="S.A.M.S"
+        <Label Text="Student Attendance Management System"
                Margin="10,5"
                FontAttributes="Italic"
-               TextTransform="Default"
                BackgroundColor="Transparent"
                TextColor="Blue"
                FontSize="12"
-               HorizontalTextAlignment="Start"
-               HorizontalOptions="Start"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="CenterAndExpand"
                VerticalTextAlignment="End"
-               VerticalOptions="End" />
+               VerticalOptions="EndAndExpand" />
 
     </StackLayout>
 </xct:Popup>
