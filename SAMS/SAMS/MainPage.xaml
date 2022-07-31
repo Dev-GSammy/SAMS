@@ -2,9 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SAMS"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="SAMS.MainPage">
 
-    <StackLayout BackgroundColor="AntiqueWhite">
+    <StackLayout BackgroundColor="AntiqueWhite" xct:CornerRadiusEffect.CornerRadius="30">
         <!--<Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
@@ -47,6 +48,7 @@
         <Button x:Name="LoginButton"
                 Clicked="LoginButton_Clicked"
                 Text="Login"
+                FontAttributes="Bold"
                 FontSize="22"
                 BackgroundColor="Blue"
                 HorizontalOptions="FillAndExpand"
