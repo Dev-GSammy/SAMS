@@ -2,12 +2,20 @@
 <xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
-             x:Class="SAMS.StudorLecRegPopup">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+             x:Class="SAMS.StudorLecRegPopup"
+           Size="300,300"
+           IsLightDismissEnabled="False"
+           HorizontalOptions="Center"
+           VerticalOptions="Center">
+    <StackLayout>
+        <Label Text="Welcome"
+               TextColor="Black"
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+        <Button x:Name="ClosePopup"
+                Text="Close"
+                BackgroundColor="Blue"
+                TextColor="White"
+                HorizontalOptions="Center"
+                Clicked="ClosePopup_Clicked"/>
+    </StackLayout>
 </xct:Popup>

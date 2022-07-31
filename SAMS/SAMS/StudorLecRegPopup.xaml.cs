@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Xamarin.CommunityToolkit.UI.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Xamarin.CommunityToolkit;
+using Xamarin.CommunityToolkit.Extensions;
 
 namespace SAMS
 {
@@ -16,6 +16,11 @@ namespace SAMS
         public StudorLecRegPopup()
         {
             InitializeComponent();
+        }
+
+        private void ClosePopup_Clicked(object sender, EventArgs e)
+        {
+            Dismiss(null);
         }
     }
 }

@@ -5,6 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.CommunityToolkit.Extensions;
+using Xamarin.CommunityToolkit;
+using Xamarin.CommunityToolkit.UI.Views;
 
 namespace SAMS
 {
@@ -21,7 +24,7 @@ namespace SAMS
 
         private void LoginButton_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new StudorLecRegistration());
+            Navigation.ShowPopup(new StudorLecRegPopup());
         }
     }
 }
