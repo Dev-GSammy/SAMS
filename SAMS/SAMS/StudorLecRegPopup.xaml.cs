@@ -22,5 +22,15 @@ namespace SAMS
         {
             Dismiss(null);
         }
+
+        private void RegAsStudent_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RegAsLecturer_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

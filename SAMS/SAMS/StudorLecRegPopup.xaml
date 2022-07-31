@@ -6,16 +6,48 @@
            Size="300,300"
            IsLightDismissEnabled="False"
            HorizontalOptions="Center"
-           VerticalOptions="Center">
-    <StackLayout>
-        <Label Text="Welcome"
-               TextColor="Black"
-                HorizontalOptions="CenterAndExpand" />
+           VerticalOptions="Center"
+           BackgroundColor="AntiqueWhite"
+           xct:CornerRadiusEffect.CornerRadius="15">
+    <StackLayout Margin="10">
         <Button x:Name="ClosePopup"
                 Text="Close"
+                BackgroundColor="AntiqueWhite"
+                TextColor="Blue"
+                HorizontalOptions="End"
+                Margin="5"
+                Clicked="ClosePopup_Clicked"/>
+        <Label Text="Choose your Category"
+               TextColor="Black"
+               FontAttributes="Italic"
+                HorizontalOptions="Center"
+               Margin="10,5"
+               BackgroundColor="Transparent"/>
+        <Button x:Name="RegAsStudent" 
+                Text="Student"
                 BackgroundColor="Blue"
                 TextColor="White"
                 HorizontalOptions="Center"
-                Clicked="ClosePopup_Clicked"/>
+                Margin="5"
+                Clicked="RegAsStudent_Clicked"
+                />
+        <Button x:Name="RegAsLecturer" 
+                Text="Lecturer"
+                BackgroundColor="Blue"
+                TextColor="White"
+                HorizontalOptions="Center"
+                Margin="5"
+                Clicked="RegAsLecturer_Clicked"
+                />
+        <Label Text="S.A.M.S"
+               FontAttributes="Italic"
+               BackgroundColor="Transparent"
+               TextColor="Blue"
+               FontSize="12"
+               HorizontalTextAlignment="Start"
+               HorizontalOptions="Start"
+               VerticalTextAlignment="End"
+               VerticalOptions="End" />
+
     </StackLayout>
 </xct:Popup>
