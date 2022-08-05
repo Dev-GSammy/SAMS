@@ -12,6 +12,7 @@
     <StackLayout Margin="10" BackgroundColor="AntiqueWhite" xct:CornerRadiusEffect.CornerRadius="30">
         <Button x:Name="ClosePopup"
                 Text="Close"
+                CharacterSpacing="1"
                 TextTransform="Lowercase"
                 BorderWidth="0"
                 BackgroundColor="AntiqueWhite"
@@ -25,10 +26,11 @@
                TextColor="Black"
                FontAttributes="Italic"
                 HorizontalOptions="Center"
-               Margin="10,5"
+               Margin="10,0,10,153"
                BackgroundColor="Transparent"/>
         <Button x:Name="RegAsStudent" 
                 Text="Student"
+                CharacterSpacing="2"
                 FontAttributes="Bold"
                 BackgroundColor="Blue"
                 TextColor="White"
@@ -38,6 +40,7 @@
                 Clicked="RegAsStudent_Clicked"
                 />
         <Button x:Name="RegAsLecturer" 
+                CharacterSpacing="2"
                 Text="Lecturer"
                 FontAttributes="Bold"
                 FontSize="18"

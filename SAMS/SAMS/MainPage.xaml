@@ -67,5 +67,16 @@
         </Grid>
         <Button Text="New? Register" Grid.Column="0" Grid.Row="1" FontSize="15" TextColor="Blue" BackgroundColor="AntiqueWhite"/>
         <Button Text="Forgot Password?" Grid.Column="1" Grid.Row="1" FontSize="15" TextColor="Blue" BackgroundColor="AntiqueWhite"/>
+        <Label Text="Student Attendance Management System"
+               Margin="10,5"
+               FontAttributes="Italic"
+               BackgroundColor="Transparent"
+               TextColor="Blue"
+               FontSize="12"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="CenterAndExpand"
+               VerticalTextAlignment="End"
+               VerticalOptions="EndAndExpand" />
+
     </StackLayout>
 </ContentPage>
