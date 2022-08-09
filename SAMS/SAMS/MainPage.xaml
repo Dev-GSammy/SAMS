@@ -3,10 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SAMS"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
-             x:Class="SAMS.MainPage">
-
-    <StackLayout BackgroundColor="AntiqueWhite" xct:CornerRadiusEffect.CornerRadius="30">
-        <!--<Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+             x:Class="SAMS.MainPage"
+             BackgroundColor="Green">
+    <!--<Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
@@ -21,62 +20,64 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>-->
-        <Label Text="Student Attendance" TextColor="Blue" Margin="10,30,10,0" HorizontalTextAlignment="Center" FontSize="36" FontFamily="Arial black" FontAttributes="Bold"/>
-        <Label Text="Management System" TextColor="Blue" Margin="10,0,10,50" HorizontalTextAlignment="Center" FontSize="36" FontFamily="Arial black" FontAttributes="Bold"/>
-        <Image x:Name="SplashScreenImage"
+        
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="AntiqueWhite" xct:CornerRadiusEffect.CornerRadius="30" VerticalOptions="FillAndExpand">
+            <Label Text="Student Attendance" TextColor="Blue" Margin="10,30,10,0" HorizontalTextAlignment="Center" FontSize="Title" FontFamily="Arial black" FontAttributes="Bold"/>
+            <Label Text="Management System" TextColor="Blue" Margin="10,0,10,30" HorizontalTextAlignment="Center" FontSize="Title" FontFamily="Arial black" FontAttributes="Bold"/>
+            <Image Grid.Row="1" x:Name="SplashScreenImage"
                Aspect="AspectFit"
-               Margin="10,20,10,10"
+               Margin="10"
                HorizontalOptions="FillAndExpand"/>
-        <Label Text="Welcome"
+            <Label Grid.Row="2" Text="Welcome"
                HorizontalOptions="Center"
-               Margin="0,20,0,50"
+               Margin="0,10,0,10"
                TextColor="DodgerBlue"
-               FontSize="25"
+               FontSize="Large"
                FontAttributes="Bold"/>
-        <Entry x:Name="nameEntry"
-               FontSize="20"
-               Margin="20,10,20,5"
+            <Entry Grid.Row="3" x:Name="nameEntry"
+               FontSize="Body"
+               Margin="10,5"
                PlaceholderColor="DimGray"
                TextColor="Black"
                Placeholder="Username"/>
-        <Entry x:Name="passwordEntry"
-               FontSize="20"
-               Margin="20,0,20,5"
+            <Entry Grid.Row="3" x:Name="passwordEntry"
+               FontSize="Body"
+               Margin="10,5"
                PlaceholderColor="DimGray"
                TextColor="Black"
                Placeholder="Password"/>
-        <Button x:Name="LoginButton"
-                Clicked="LoginButton_Clicked"
+            <Button Grid.Row="3" x:Name="LoginButton"
                 Text="Login"
                 FontAttributes="Bold"
-                FontSize="22"
+                FontSize="Medium"
                 BackgroundColor="Blue"
                 HorizontalOptions="FillAndExpand"
                 Margin="10,10,10,0"/>
-        <Grid Margin="10">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="auto"/>
-                <ColumnDefinition Width="auto"/>
-                <ColumnDefinition Width="auto"/>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-            </Grid.RowDefinitions>
-        </Grid>
-        <Button Text="New? Register" Grid.Column="0" Grid.Row="1" FontSize="15" TextColor="Blue" BackgroundColor="AntiqueWhite"/>
-        <Button Text="Forgot Password?" Grid.Column="1" Grid.Row="1" FontSize="15" TextColor="Blue" BackgroundColor="AntiqueWhite"/>
-        <Label Text="Student Attendance Management System"
+
+            <StackLayout Grid.Row="4" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="End" Margin="5,10">
+                <Button Text="New? Register" Grid.Column="0" Grid.Row="1" FontSize="Small" TextColor="Blue" BackgroundColor="AntiqueWhite"/>
+                <Button Text="Forgot Password?" Grid.Column="1" Grid.Row="1" FontSize="Small" TextColor="Blue" BackgroundColor="AntiqueWhite"/>
+            </StackLayout>
+
+            <Label Grid.Row="5" Text="Student Attendance Management System"
                Margin="10,5"
                FontAttributes="Italic"
                BackgroundColor="Transparent"
                TextColor="Blue"
-               FontSize="12"
+               FontSize="Micro"
                HorizontalTextAlignment="Center"
                HorizontalOptions="CenterAndExpand"
                VerticalTextAlignment="End"
                VerticalOptions="EndAndExpand" />
-
-    </StackLayout>
+        </StackLayout>
+    </Grid>
 </ContentPage>
