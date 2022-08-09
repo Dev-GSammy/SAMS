@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:SAMS"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="SAMS.MainPage"
-             BackgroundColor="Green">
+             BackgroundColor="Transparent">
     <!--<Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
@@ -56,6 +56,7 @@
                TextColor="Black"
                Placeholder="Password"/>
             <Button Grid.Row="3" x:Name="LoginButton"
+                Clicked="LoginButton_Clicked"
                 Text="Login"
                 FontAttributes="Bold"
                 FontSize="Medium"
