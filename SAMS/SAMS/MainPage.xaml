@@ -68,6 +68,7 @@
             <Button Grid.Row="2" x:Name="LoginButton"
                 CornerRadius="10"
                 Text="Login"
+                Clicked="LoginButton_Clicked"
                 FontAttributes="Bold"
                 FontSize="Medium"
                     VerticalOptions="End"
