@@ -8,58 +8,15 @@
            HorizontalOptions="Center"
            VerticalOptions="Center"
            Color="Transparent"
-           xct:CornerRadiusEffect.CornerRadius="15">
-    <StackLayout Margin="10" BackgroundColor="AntiqueWhite" xct:CornerRadiusEffect.CornerRadius="30">
-        <Button x:Name="ClosePopup"
-                Text="Close"
-                CharacterSpacing="1"
-                TextTransform="Lowercase"
-                BorderWidth="0"
-                BackgroundColor="AntiqueWhite"
-                TextColor="Blue"
-                HorizontalOptions="End"
-                Margin="0"
-                Padding="0"
-                Clicked="ClosePopup_Clicked"/>
-        <Label Text="Choose your Category"
-               FontSize="25"
-               TextColor="Black"
-               FontAttributes="Italic"
-                HorizontalOptions="Center"
-               Margin="10,0,10,153"
-               BackgroundColor="Transparent"/>
-        <Button x:Name="RegAsStudent" 
-                Text="Student"
-                CharacterSpacing="2"
-                FontAttributes="Bold"
-                BackgroundColor="Blue"
-                TextColor="White"
-                FontSize="18"
-                HorizontalOptions="FillAndExpand"
-                Margin="5"
-                Clicked="RegAsStudent_Clicked"
-                />
-        <Button x:Name="RegAsLecturer" 
-                CharacterSpacing="2"
-                Text="Lecturer"
-                FontAttributes="Bold"
-                FontSize="18"
-                BackgroundColor="Blue"
-                TextColor="White"
-                HorizontalOptions="FillAndExpand"
-                Margin="5"
-                Clicked="RegAsLecturer_Clicked"
-                />
-        <Label Text="Student Attendance Management System"
-               Margin="10,5"
-               FontAttributes="Italic"
-               BackgroundColor="Transparent"
-               TextColor="Blue"
-               FontSize="12"
-               HorizontalTextAlignment="Center"
-               HorizontalOptions="CenterAndExpand"
-               VerticalTextAlignment="End"
-               VerticalOptions="EndAndExpand" />
-
-    </StackLayout>
+           xct:CornerRadiusEffect.CornerRadius="30">
+    <Grid BackgroundColor="{StaticResource TheAlmostWhite}" VerticalOptions="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackLayout>
+            
+        </StackLayout>
+    </Grid>
 </xct:Popup>
