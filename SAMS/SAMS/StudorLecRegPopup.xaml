@@ -7,16 +7,21 @@
            IsLightDismissEnabled="False"
            HorizontalOptions="Center"
            VerticalOptions="Center"
-           Color="Transparent"
-           xct:CornerRadiusEffect.CornerRadius="30">
-    <Grid BackgroundColor="{StaticResource TheAlmostWhite}" VerticalOptions="Center">
+           Color="Transparent">
+    <Grid BackgroundColor="{StaticResource TheAlmostWhite}" VerticalOptions="Center" xct:CornerRadiusEffect.CornerRadius="30">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackLayout>
-            
+            <ImageButton x:Name="ClosePopup"
+                         Grid.Row="0"
+                         Source="closeButton.png"
+                         HorizontalOptions="End"
+                         Margin="2"
+                         Clicked="ClosePopup_Clicked"
+                         />
         </StackLayout>
     </Grid>
 </xct:Popup>
