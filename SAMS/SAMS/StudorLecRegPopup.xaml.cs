@@ -16,6 +16,8 @@ namespace SAMS
         public StudorLecRegPopup()
         {
             InitializeComponent();
+            var assembly = typeof(StudorLecRegPopup);
+            ClosePopup.Source = ImageSource.FromResource("SAMS.Assets.Images.closeButton.png", assembly);
         }
 
         private void ClosePopup_Clicked(object sender, EventArgs e)

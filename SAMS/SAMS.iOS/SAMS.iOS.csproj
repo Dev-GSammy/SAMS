@@ -136,4 +136,7 @@
       <Name>SAMS</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\closeButton.png" />
+  </ItemGroup>
 </Project>

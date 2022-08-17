@@ -17,7 +17,6 @@
         <StackLayout>
             <ImageButton x:Name="ClosePopup"
                          Grid.Row="0"
-                         Source="closeButton.png"
                          HorizontalOptions="End"
                          Margin="2"
                          Clicked="ClosePopup_Clicked"
