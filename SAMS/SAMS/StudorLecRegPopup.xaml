@@ -16,6 +16,7 @@
         </Grid.RowDefinitions>
         <StackLayout>
             <ImageButton x:Name="ClosePopup"
+                         Source="closeButton.png"
                          Grid.Row="0"
                          HorizontalOptions="End"
                          Margin="2"
