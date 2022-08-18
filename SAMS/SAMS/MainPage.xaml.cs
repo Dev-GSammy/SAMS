@@ -24,6 +24,10 @@ namespace SAMS
 
         private void LoginButton_Clicked(object sender, EventArgs e)
         {
+            
+        }
+        private void RegisterButton_Clicked(object sender, EventArgs e)
+        {
             Navigation.ShowPopup(new StudorLecRegPopup());
         }
     }
