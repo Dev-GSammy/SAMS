@@ -27,12 +27,12 @@ namespace SAMS
         
         private void RegAsStudent_Clicked(object sender, EventArgs e)
         {
-            RegAsStudent.BackgroundColor = Color.DodgerBlue;
+            
         }
 
         private void RegAsLecturer_Clicked(object sender, EventArgs e)
         {
-            RegAsLecturer.BackgroundColor = Color.DodgerBlue;
+            
         }
     }
 }

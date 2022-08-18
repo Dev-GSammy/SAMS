@@ -8,6 +8,15 @@
             <Color x:Key="TheAshPart">#2E334D</Color>
             <Color x:Key="TheWhitePart">#FFFFFF</Color>
             <Color x:Key="TheAlmostWhite">#FBFBFB</Color>
+            <Style TargetType="Button">
+                <Style.Triggers>
+                    <Trigger TargetType="Button"
+                         Property="IsPressed" Value="True">
+                        <Setter Property="BackgroundColor" Value="{StaticResource TheAshPart}" />
+                        <!-- multiple Setters elements are allowed -->
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
