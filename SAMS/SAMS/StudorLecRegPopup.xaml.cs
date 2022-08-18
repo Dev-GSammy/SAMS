@@ -23,6 +23,7 @@ namespace SAMS
         private void ClosePopup_Clicked(object sender, EventArgs e)
         {
             Dismiss(null);
+            
         }
         
         private void RegAsStudent_Clicked(object sender, EventArgs e)
