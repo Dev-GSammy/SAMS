@@ -24,11 +24,17 @@ namespace SAMS
 
         private void LoginButton_Clicked(object sender, EventArgs e)
         {
-            
+            LoginButton.BackgroundColor = Color.DodgerBlue;
         }
         private void RegisterButton_Clicked(object sender, EventArgs e)
         {
+            RegisterButton.BackgroundColor = Color.Blue;
             Navigation.ShowPopup(new StudorLecRegPopup());
+        }
+
+        private void ForgotPassButton_Clicked(object sender, EventArgs e)
+        {
+            ForgotPassButton.BackgroundColor = Color.Blue;
         }
     }
 }
