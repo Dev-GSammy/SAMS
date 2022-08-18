@@ -90,7 +90,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\closeButton.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SAMS\SAMS.csproj">
       <Project>{2F15CC14-6E86-4FBC-BEE5-6FF3BF661650}</Project>
@@ -113,9 +115,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\app_icon_adaptive_fore.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\closeButton.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\mipmap-mdpi\closeButton.png" />
   </ItemGroup>
   <ItemGroup>
@@ -128,7 +127,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\closeButton.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\closeButton.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\closeButton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
