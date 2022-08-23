@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="SAMS.StudorLecRegPopup"
-           Size="300,300"
+           
            IsLightDismissEnabled="False"
            HorizontalOptions="Center"
            VerticalOptions="Center"
@@ -18,7 +18,7 @@
             <ImageButton x:Name="ClosePopup"
                          Margin="20"
                          HeightRequest="50"
-                         Source="closeButton.png"
+                         Source="splashpage.png"
                          HorizontalOptions="End"
                          Clicked="ClosePopup_Clicked"
                          />

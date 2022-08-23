@@ -11,8 +11,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Images\closeButton.png" />
     <None Remove="Assets\Images\splash.png" />
     <None Remove="Assets\Images\splashpage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\closeButton.png" />
   </ItemGroup>
 
   <ItemGroup>
