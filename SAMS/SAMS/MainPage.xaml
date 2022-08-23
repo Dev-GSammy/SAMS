@@ -45,7 +45,7 @@
                HorizontalOptions="Center">
             </Image>
         </StackLayout>
-        <StackLayout Grid.Row="2" VerticalOptions="CenterAndExpand">
+        <StackLayout Grid.Row="2" Margin="10" VerticalOptions="CenterAndExpand">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -53,22 +53,27 @@
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
             </Grid>
-            <Entry Grid.Row="0" x:Name="nameEntry"
+            <Frame Margin="10,10,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="15" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                <Entry Grid.Row="0" x:Name="nameEntry"
                FontSize="Body"
                Margin="10,5"
                PlaceholderColor="{StaticResource TheAshPart}"
                TextColor="Black"
                    VerticalOptions="End"
                Placeholder="Username"/>
-            <Entry Grid.Row="1" x:Name="passwordEntry"
+            </Frame>
+            <Frame Margin="10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="15" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                <Entry Grid.Row="0" x:Name="passwordEntry"
                FontSize="Body"
                Margin="10,5"
                PlaceholderColor="{StaticResource TheAshPart}"
-                   VerticalOptions="End"
                TextColor="Black"
+                   VerticalOptions="End"
                Placeholder="Password"/>
+            </Frame>
+
             <Button Grid.Row="2" x:Name="LoginButton"
-                CornerRadius="10"
+                CornerRadius="15"
                 Text="Login"
                 Clicked="LoginButton_Clicked"
                 FontAttributes="Bold"
@@ -76,7 +81,7 @@
                     VerticalOptions="End"
                 BackgroundColor="{StaticResource TheBluePart}"
                 HorizontalOptions="FillAndExpand"
-                Margin="10,10,10,0"/>
+                Margin="10,30,10,0"/>
         </StackLayout>
         <StackLayout Grid.Row="2" VerticalOptions="End">
             <Grid>
