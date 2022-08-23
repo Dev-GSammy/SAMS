@@ -3,7 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SAMS"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
-             
              x:Class="SAMS.MainPage"
              BackgroundColor="Transparent">
    
@@ -75,9 +74,10 @@
             <Button Grid.Row="2" x:Name="LoginButton"
                 CornerRadius="15"
                 Text="Login"
+                    CharacterSpacing="2"
                 Clicked="LoginButton_Clicked"
                 FontAttributes="Bold"
-                FontSize="Medium"
+                FontSize="Large"
                     VerticalOptions="End"
                 BackgroundColor="{StaticResource TheBluePart}"
                 HorizontalOptions="FillAndExpand"
