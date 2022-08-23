@@ -33,5 +33,10 @@ namespace SAMS
         {
             
         }
+
+        private void ClosePopup_Clicked_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
