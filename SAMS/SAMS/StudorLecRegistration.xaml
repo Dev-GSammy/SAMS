@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SAMS.StudorLecRegistration"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
-             xct:CornerRadiusEffect.CornerRadius="30"
              BackgroundColor="Transparent">
     <ContentPage.Content>
-        <StackLayout xct:CornerRadiusEffect.CornerRadius="30" BackgroundColor="{StaticResource TheAlmostWhite}" Margin="10">
+        <StackLayout xct:CornerRadiusEffect.CornerRadius="30" BackgroundColor="{StaticResource TheAlmostWhite}">
 
             <Grid>
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
@@ -102,7 +102,8 @@
                         Placeholder="Confirm Password"/>
                     </Frame>
                 </StackLayout>
-                <Button Grid.Row="2" x:Name="studRegisterButton"
+                <StackLayout Grid.Row="3" VerticalOptions="EndAndExpand">
+                <Button x:Name="studRegisterButton"
                 CornerRadius="15"
                 Text="REGISTER"
                 CharacterSpacing="2"
@@ -112,6 +113,18 @@
                 BackgroundColor="{StaticResource TheBluePart}"
                 HorizontalOptions="FillAndExpand"
                 Margin="10,30,10,0"/>
+                
+                <Label Text="Student Attendance Management System"
+               Margin="10,5"
+               FontAttributes="Italic"
+               BackgroundColor="Transparent"
+               TextColor="{StaticResource TheBluePart}"
+               FontSize="Small"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="CenterAndExpand"
+               VerticalTextAlignment="End"
+               VerticalOptions="EndAndExpand" />
+                </StackLayout>
             </Grid>
         </StackLayout>
     </ContentPage.Content>
