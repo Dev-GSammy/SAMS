@@ -102,8 +102,8 @@
                         Placeholder="Confirm Password"/>
                     </Frame>
                 </StackLayout>
-                <StackLayout Grid.Row="3" VerticalOptions="EndAndExpand">
-                <Button x:Name="studRegisterButton"
+                <StackLayout Grid.Row="2">
+                    <Button x:Name="studRegisterButton"
                 CornerRadius="15"
                 Text="REGISTER"
                 CharacterSpacing="2"
@@ -113,8 +113,9 @@
                 BackgroundColor="{StaticResource TheBluePart}"
                 HorizontalOptions="FillAndExpand"
                 Margin="10,30,10,0"/>
-                
-                <Label Text="Student Attendance Management System"
+                </StackLayout>
+                <StackLayout Grid.Row="6" VerticalOptions="End">
+                        <Label Text="Student Attendance Management System"
                Margin="10,5"
                FontAttributes="Italic"
                BackgroundColor="Transparent"
