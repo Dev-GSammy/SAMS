@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SAMS.RegAsLecturer"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             BackgroundColor="Transparent">
+    <ContentPage.Content>
+        <StackLayout xct:CornerRadiusEffect.CornerRadius="30" BackgroundColor="{StaticResource TheAlmostWhite}">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Frame HeightRequest="200" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
+                    <Label Text="Welcome"
+                           FontSize="Title"
+                           FontFamily="Poppins"
+                           FontAttributes="Bold"
+                           CharacterSpacing="2"
+                           TextColor="{StaticResource TheAlmostWhite}"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Grid.Row="0"
+                           />
+                </Frame>
+                <StackLayout Grid.Row="1">
+                    <Frame Margin="10,10,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                        <Entry Grid.Row="0" x:Name="LecRegName"
+                        FontSize="Body"
+                        Margin="10,5"
+                        PlaceholderColor="{StaticResource TheAshPart}"
+                        TextColor="Black"
+                        VerticalOptions="End"
+                        Placeholder="Name"/>
+                    </Frame>
+                    <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                        <Entry Grid.Row="0" x:Name="LecRegMatric"
+                        FontSize="Body"
+                        Margin="10,5"
+                        PlaceholderColor="{StaticResource TheAshPart}"
+                        TextColor="Black"
+                        VerticalOptions="End"
+                        Placeholder="Matric No (IFT/17/2008)"/>
+                    </Frame>
+                    <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                        <Entry Grid.Row="0" x:Name="LecRegSchool"
+                        FontSize="Body"
+                        Margin="10,5"
+                        PlaceholderColor="{StaticResource TheAshPart}"
+                        TextColor="Black"
+                        VerticalOptions="End"
+                        Placeholder="Your school"/>
+                    </Frame>
+                    <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                        <Entry Grid.Row="0" x:Name="LecRegDepartment"
+                        FontSize="Body"
+                        Margin="10,5"
+                        PlaceholderColor="{StaticResource TheAshPart}"
+                        TextColor="Black"
+                        VerticalOptions="End"
+                        Placeholder="Department"/>
+                    </Frame>
+                    <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                        <Entry Grid.Row="0" x:Name="LecRegLevel"
+                        FontSize="Body"
+                        Margin="10,5"
+                        PlaceholderColor="{StaticResource TheAshPart}"
+                        TextColor="Black"
+                        VerticalOptions="End"
+                        Placeholder="Level (must be in digits e.g 200)"/>
+                    </Frame>
+                    <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                        <Entry Grid.Row="0" x:Name="LecRegCurrentYear"
+                        FontSize="Body"
+                        Margin="10,5"
+                        PlaceholderColor="{StaticResource TheAshPart}"
+                        TextColor="Black"
+                        VerticalOptions="End"
+                        Placeholder="Current Year"/>
+                    </Frame>
+                    <Frame Margin="10,10,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="15" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                        <Entry Grid.Row="0" x:Name="LecRegPassword"
+                        FontSize="Body"
+                        IsPassword="True"
+                        Margin="10,5"
+                        PlaceholderColor="{StaticResource TheAshPart}"
+                        TextColor="Black"
+                        VerticalOptions="End"
+                        Placeholder="Password (Please set a strong one)"/>
+                    </Frame>
+                    <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="15" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                        <Entry Grid.Row="0" x:Name="LecRegConfirmPassword"
+                        FontSize="Body"
+                        IsPassword="True"
+                        Margin="10,5"
+                        PlaceholderColor="{StaticResource TheAshPart}"
+                        TextColor="Black"
+                        VerticalOptions="End"
+                        Placeholder="Confirm Password"/>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Grid.Row="2">
+                    <Button x:Name="LecRegisterButton"
+                CornerRadius="15"
+                Text="REGISTER"
+                CharacterSpacing="2"
+                FontAttributes="Bold"
+                FontSize="Large"
+                VerticalOptions="End"
+                BackgroundColor="{StaticResource TheBluePart}"
+                HorizontalOptions="FillAndExpand"
+                Margin="10,30,10,0"/>
+                </StackLayout>
+                <StackLayout Grid.Row="6" VerticalOptions="End">
+                    <Label Text="Student Attendance Management System"
+               Margin="10,5"
+               FontAttributes="Italic"
+               BackgroundColor="Transparent"
+               TextColor="{StaticResource TheBluePart}"
+               FontSize="Small"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="CenterAndExpand"
+               VerticalTextAlignment="End"
+               VerticalOptions="EndAndExpand" />
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
