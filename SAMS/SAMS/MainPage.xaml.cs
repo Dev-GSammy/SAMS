@@ -32,7 +32,7 @@ namespace SAMS
 
             if (result)
             {
-                await Navigation.PushAsync(new StudorLecRegistration());
+                await Navigation.PushModalAsync(new StudorLecRegistration());
             }
         }
 
