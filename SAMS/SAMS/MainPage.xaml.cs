@@ -34,6 +34,10 @@ namespace SAMS
             {
                 await Navigation.PushModalAsync(new StudorLecRegistration());
             }
+            else
+            {
+                await DisplayAlert("For the Lecturer page", "This is the Lecturer's Content page Simulator", "Okay");
+            }
         }
 
         private void ForgotPassButton_Clicked(object sender, EventArgs e)
