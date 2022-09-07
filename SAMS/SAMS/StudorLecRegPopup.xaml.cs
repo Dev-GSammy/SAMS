@@ -7,11 +7,13 @@ using Xamarin.CommunityToolkit.UI.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.CommunityToolkit.Extensions;
+using System.ComponentModel;
+using Xamarin.CommunityToolkit;
 
 namespace SAMS
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class StudorLecRegPopup : Popup
+    public partial class StudorLecRegPopup
     {
         public StudorLecRegPopup()
         {
@@ -20,15 +22,7 @@ namespace SAMS
             //ClosePopup.Source = ImageSource.FromResource("SAMS.Assets.Images.closeButton.png", assembly);
         }
 
-        private void ClosePopup_Clicked(object sender, EventArgs e)
-        {
-            Dismiss(null);    
-        }
-        
-        private void RegAsStudent_Clicked(object sender, EventArgs e)
-        {
-            
-        }
+        public void RegAsStudent_Clicked(object sender, EventArgs e) => Dismiss(true);
         private void RegAsLecturer_Clicked(object sender, EventArgs e)
         {
             

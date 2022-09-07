@@ -24,12 +24,16 @@ namespace SAMS
 
         private void LoginButton_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new StudorLecRegistration());
-        }
-        private void RegisterButton_Clicked(object sender, EventArgs e)
-        {
             
-            Navigation.ShowPopup(new StudorLecRegPopup());
+        }
+         async private void RegisterButton_Clicked(object sender, EventArgs e)
+        {
+           var result = await App.Current.MainPage.Navigation.ShowPopupAsync(new StudorLecRegPopup());
+
+            if (result)
+            {
+                await Navigation.PushAsync(new StudorLecRegistration());
+            }
         }
 
         private void ForgotPassButton_Clicked(object sender, EventArgs e)
