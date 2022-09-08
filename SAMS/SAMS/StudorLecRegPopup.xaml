@@ -18,6 +18,7 @@
         <StackLayout Grid.Row="0">
             <Label Text="Choose your Category"
                FontSize="Title"
+                
                TextColor="Black"
                FontAttributes="Italic"
                 HorizontalOptions="Center"

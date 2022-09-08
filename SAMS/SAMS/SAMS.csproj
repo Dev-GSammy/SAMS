@@ -11,6 +11,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Fonts\Poppins-Black.ttf" />
+    <None Remove="Assets\Fonts\Poppins-BlackItalic.ttf" />
+    <None Remove="Assets\Fonts\Poppins-Bold.ttf" />
+    <None Remove="Assets\Fonts\Poppins-BoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Poppins-ExtraBold.ttf" />
+    <None Remove="Assets\Fonts\Poppins-ExtraBoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Poppins-ExtraLight.ttf" />
+    <None Remove="Assets\Fonts\Poppins-ExtraLightItalic.ttf" />
+    <None Remove="Assets\Fonts\Poppins-LightItalic.ttf" />
+    <None Remove="Assets\Fonts\Poppins-Medium.ttf" />
+    <None Remove="Assets\Fonts\Poppins-MediumItalic.ttf" />
+    <None Remove="Assets\Fonts\Poppins-Regular.ttf" />
+    <None Remove="Assets\Fonts\Poppins-SemiBold.ttf" />
+    <None Remove="Assets\Fonts\Poppins-SemiBoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Poppins-Thin.ttf" />
+    <None Remove="Assets\Fonts\Poppins-ThinItalic.ttf" />
     <None Remove="Assets\Images\closeButton.png" />
     <None Remove="Assets\Images\splash.png" />
     <None Remove="Assets\Images\splashpage.png" />
@@ -21,6 +37,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\Fonts\Poppins-Black.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-BlackItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-Bold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-BoldItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-ExtraBold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-ExtraBoldItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-ExtraLight.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-ExtraLightItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-LightItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-Medium.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-MediumItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-Regular.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-SemiBold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-SemiBoldItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-Thin.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Poppins-ThinItalic.ttf" />
     <EmbeddedResource Include="Assets\Images\splashpage.png" />
   </ItemGroup>
 
