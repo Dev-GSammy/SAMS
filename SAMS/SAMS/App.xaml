@@ -9,6 +9,7 @@
             <Color x:Key="TheWhitePart">#FFFFFF</Color>
             <Color x:Key="TheAlmostWhite">#FBFBFB</Color>
             <Style TargetType="Button">
+                <Setter Property="FontFamily" Value="PoppinsSemiBold"/>
                 <Style.Triggers>
                     <Trigger TargetType="Button"
                          Property="IsPressed" Value="True">
@@ -18,7 +19,10 @@
                 </Style.Triggers>
             </Style>
             <Style TargetType="Label">
-                <Setter Property="FontFamily" Value="PoppinsBold"/>
+                <Setter Property="FontFamily" Value="PoppinsSemiBold"/>
+            </Style>
+            <Style TargetType="Entry">
+                <Setter Property="FontFamily" Value="PoppinsMedium"/>
             </Style>
         </ResourceDictionary>
     </Application.Resources>

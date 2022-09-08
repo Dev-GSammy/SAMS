@@ -54,6 +54,7 @@
             <Label Text="Student Attendance Management System"
                Margin="10,5"
                FontAttributes="Italic"
+                   FontFamily="PoppinsRegular"
                BackgroundColor="{StaticResource TheAlmostWhite}"
                TextColor="{StaticResource TheBluePart}"
                FontSize="Small"

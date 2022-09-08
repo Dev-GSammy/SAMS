@@ -117,6 +117,7 @@
                 <StackLayout Grid.Row="6" VerticalOptions="End">
                     <Label Text="Student Attendance Management System"
                Margin="10,5"
+                FontFamily="PoppinsRegular"
                FontAttributes="Italic"
                BackgroundColor="Transparent"
                TextColor="{StaticResource TheBluePart}"

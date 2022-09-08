@@ -14,7 +14,7 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <Frame HeightRequest="200" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
+                <Frame HeightRequest="150" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
                     <Label Text="Welcome"
                            FontSize="Title"
                            FontFamily="Poppins"
@@ -43,7 +43,16 @@
                         PlaceholderColor="{StaticResource TheAshPart}"
                         TextColor="Black"
                         VerticalOptions="End"
-                        Placeholder="Matric No (IFT/17/2008)"/>
+                        Placeholder="Matric No (Without slashes, please)"/>
+                    </Frame>
+                    <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                        <Entry Grid.Row="0" x:Name="studRegEmail"
+                        FontSize="Body"
+                        Margin="10,5"
+                        PlaceholderColor="{StaticResource TheAshPart}"
+                        TextColor="Black"
+                        VerticalOptions="End"
+                        Placeholder="Your Email (johndoe@gmail.com)"/>
                     </Frame>
                     <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
                         <Entry Grid.Row="0" x:Name="studRegSchool"
@@ -121,6 +130,7 @@
                BackgroundColor="Transparent"
                TextColor="{StaticResource TheBluePart}"
                FontSize="Small"
+                FontFamily="PoppinsRegular"
                HorizontalTextAlignment="Center"
                HorizontalOptions="CenterAndExpand"
                VerticalTextAlignment="End"
