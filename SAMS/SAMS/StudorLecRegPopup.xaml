@@ -18,8 +18,7 @@
         <StackLayout Grid.Row="0">
             <Label Text="Choose your Category"
                FontSize="Title"
-                
-               TextColor="Black"
+               TextColor="{StaticResource TheBluePart}"
                FontAttributes="Italic"
                 HorizontalOptions="Center"
                Margin="5,45,0,0"
