@@ -15,7 +15,7 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Frame HeightRequest="200" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
-                    <Label Text="Welcome"
+                    <Label Text="Welcome Sir/Ma"
                            FontSize="Title"
                            FontFamily="Poppins"
                            FontAttributes="Bold"
@@ -37,13 +37,22 @@
                         Placeholder="Name"/>
                     </Frame>
                     <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
-                        <Entry Grid.Row="0" x:Name="LecRegMatric"
+                        <Entry Grid.Row="0" x:Name="LecID"
                         FontSize="Body"
                         Margin="10,5"
                         PlaceholderColor="{StaticResource TheAshPart}"
                         TextColor="Black"
                         VerticalOptions="End"
-                        Placeholder="Matric No (IFT/17/2008)"/>
+                        Placeholder="Lecturer ID (School Recognized)"/>
+                    </Frame>
+                    <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                        <Entry Grid.Row="0" x:Name="LecEmail"
+                        FontSize="Body"
+                        Margin="10,5"
+                        PlaceholderColor="{StaticResource TheAshPart}"
+                        TextColor="Black"
+                        VerticalOptions="End"
+                        Placeholder="Lecturer Email (School Recognized)"/>
                     </Frame>
                     <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
                         <Entry Grid.Row="0" x:Name="LecRegSchool"
@@ -53,24 +62,6 @@
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Your school"/>
-                    </Frame>
-                    <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
-                        <Entry Grid.Row="0" x:Name="LecRegDepartment"
-                        FontSize="Body"
-                        Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
-                        TextColor="Black"
-                        VerticalOptions="End"
-                        Placeholder="Department"/>
-                    </Frame>
-                    <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
-                        <Entry Grid.Row="0" x:Name="LecRegLevel"
-                        FontSize="Body"
-                        Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
-                        TextColor="Black"
-                        VerticalOptions="End"
-                        Placeholder="Level (must be in digits e.g 200)"/>
                     </Frame>
                     <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
                         <Entry Grid.Row="0" x:Name="LecRegCurrentYear"
@@ -114,7 +105,7 @@
                 HorizontalOptions="FillAndExpand"
                 Margin="10,30,10,0"/>
                 </StackLayout>
-                <StackLayout Grid.Row="6" VerticalOptions="End">
+                <StackLayout Grid.Row="8" VerticalOptions="End">
                     <Label Text="Student Attendance Management System"
                Margin="10,5"
                 FontFamily="PoppinsRegular"

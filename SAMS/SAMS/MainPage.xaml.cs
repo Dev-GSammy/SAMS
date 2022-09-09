@@ -36,7 +36,7 @@ namespace SAMS
             }
             else
             {
-                await DisplayAlert("For the Lecturer page", "This is the Lecturer's Content page Simulator", "Okay");
+                await Navigation.PushModalAsync(new RegAsLecturer());
             }
         }
 
