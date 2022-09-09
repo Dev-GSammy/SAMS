@@ -15,6 +15,9 @@ namespace SAMS
         public RegAsLecturer()
         {
             InitializeComponent();
+            var assembly = typeof(RegAsLecturer);
+
+            PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
         }
     }
 }

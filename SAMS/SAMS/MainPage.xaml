@@ -21,7 +21,7 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>-->
-    <Grid BackgroundColor="{StaticResource TheAlmostWhite}" xct:CornerRadiusEffect.CornerRadius="30">
+    <Grid BackgroundColor="{StaticResource TheAlmostWhite}" xct:CornerRadiusEffect.CornerRadius="15,15,30,30">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
