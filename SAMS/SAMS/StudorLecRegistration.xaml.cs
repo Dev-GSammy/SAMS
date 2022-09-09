@@ -15,6 +15,9 @@ namespace SAMS
         public StudorLecRegistration()
         {
             InitializeComponent();
+            var assembly = typeof(MainPage);
+
+            PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
         }
     }
 }

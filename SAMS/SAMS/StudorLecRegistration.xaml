@@ -14,6 +14,14 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
+                <Image 
+                    HeightRequest="150"
+                    x:Name="PatternImage"
+                    Aspect="AspectFit" 
+                    Margin="10"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Fill">
+                </Image>
                 <Frame HeightRequest="150" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
                     <Label Text="Welcome"
                            FontSize="Title"

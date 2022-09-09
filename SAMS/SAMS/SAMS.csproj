@@ -27,9 +27,18 @@
     <None Remove="Assets\Fonts\Poppins-SemiBoldItalic.ttf" />
     <None Remove="Assets\Fonts\Poppins-Thin.ttf" />
     <None Remove="Assets\Fonts\Poppins-ThinItalic.ttf" />
+    <None Remove="Assets\Icons\ArrowbackIcon.png" />
+    <None Remove="Assets\Icons\battery.png" />
+    <None Remove="Assets\Icons\InternetIcon.png" />
+    <None Remove="Assets\Icons\LockIcon.png" />
+    <None Remove="Assets\Icons\ShareIcon.png" />
+    <None Remove="Assets\Icons\Usercheck.png" />
+    <None Remove="Assets\Icons\WifiIcon.png" />
+    <None Remove="Assets\Images\app icon.png" />
     <None Remove="Assets\Images\closeButton.png" />
     <None Remove="Assets\Images\splash.png" />
     <None Remove="Assets\Images\splashpage.png" />
+    <None Remove="Assets\Images\WavyPattern.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -53,7 +62,16 @@
     <EmbeddedResource Include="Assets\Fonts\Poppins-SemiBoldItalic.ttf" />
     <EmbeddedResource Include="Assets\Fonts\Poppins-Thin.ttf" />
     <EmbeddedResource Include="Assets\Fonts\Poppins-ThinItalic.ttf" />
+    <EmbeddedResource Include="Assets\Icons\ArrowbackIcon.png" />
+    <EmbeddedResource Include="Assets\Icons\battery.png" />
+    <EmbeddedResource Include="Assets\Icons\InternetIcon.png" />
+    <EmbeddedResource Include="Assets\Icons\LockIcon.png" />
+    <EmbeddedResource Include="Assets\Icons\ShareIcon.png" />
+    <EmbeddedResource Include="Assets\Icons\Usercheck.png" />
+    <EmbeddedResource Include="Assets\Icons\WifiIcon.png" />
+    <EmbeddedResource Include="Assets\Images\app icon.png" />
     <EmbeddedResource Include="Assets\Images\splashpage.png" />
+    <EmbeddedResource Include="Assets\Images\WavyPattern.png" />
   </ItemGroup>
 
   <ItemGroup>
