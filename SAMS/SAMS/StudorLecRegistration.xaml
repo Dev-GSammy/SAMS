@@ -11,8 +11,8 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
                 
                 <Frame HeightRequest="150" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
@@ -130,7 +130,7 @@
                 HorizontalOptions="FillAndExpand"
                 Margin="10,30,10,0"/>
                 </StackLayout>
-                <StackLayout Grid.Row="6" VerticalOptions="End">
+                <StackLayout Grid.Row="5" VerticalOptions="End">
                         <Label Text="Student Attendance Management System"
                Margin="10,5"
                FontAttributes="Italic"

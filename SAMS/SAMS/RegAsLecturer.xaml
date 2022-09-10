@@ -11,8 +11,8 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
                 <Frame HeightRequest="150" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
                     <Image 
@@ -89,6 +89,10 @@
                         Placeholder="Password (Please set a strong one)"/>
                     </Frame>
                     <Frame Margin="10,5,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="15" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                        <StackLayout>
+                            <Image>
+                                
+                            </Image>
                         <Entry Grid.Row="0" x:Name="LecRegConfirmPassword"
                         FontSize="Body"
                         IsPassword="True"
@@ -97,9 +101,10 @@
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Confirm Password"/>
+                        </StackLayout>
                     </Frame>
                 </StackLayout>
-                <StackLayout Grid.Row="2">
+                <StackLayout Grid.Row="2" VerticalOptions="Center">
                     <Button x:Name="LecRegisterButton"
                 CornerRadius="15"
                 Text="REGISTER"
@@ -111,7 +116,7 @@
                 HorizontalOptions="FillAndExpand"
                 Margin="10,30,10,0"/>
                 </StackLayout>
-                <StackLayout Grid.Row="8" VerticalOptions="End">
+                <StackLayout Grid.Row="7" VerticalOptions="End">
                     <Label Text="Student Attendance Management System"
                Margin="10,5"
                 FontFamily="PoppinsRegular"
