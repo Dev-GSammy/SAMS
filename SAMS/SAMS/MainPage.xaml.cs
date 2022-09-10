@@ -22,9 +22,9 @@ namespace SAMS
 
         }
 
-        private void LoginButton_Clicked(object sender, EventArgs e)
+        async private void LoginButton_Clicked(object sender, EventArgs e)
         {
-            
+            await Navigation.PushModalAsync(new Dashboard());
         }
          async private void RegisterButton_Clicked(object sender, EventArgs e)
         {

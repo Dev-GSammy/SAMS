@@ -34,6 +34,7 @@
     <None Remove="Assets\Icons\ShareIcon.png" />
     <None Remove="Assets\Icons\Usercheck.png" />
     <None Remove="Assets\Icons\WifiIcon.png" />
+    <None Remove="Assets\Images\AdvertiseHere.PNG" />
     <None Remove="Assets\Images\app icon.png" />
     <None Remove="Assets\Images\closeButton.png" />
     <None Remove="Assets\Images\splash.png" />
@@ -69,6 +70,7 @@
     <EmbeddedResource Include="Assets\Icons\ShareIcon.png" />
     <EmbeddedResource Include="Assets\Icons\Usercheck.png" />
     <EmbeddedResource Include="Assets\Icons\WifiIcon.png" />
+    <EmbeddedResource Include="Assets\Images\AdvertiseHere.png" />
     <EmbeddedResource Include="Assets\Images\app icon.png" />
     <EmbeddedResource Include="Assets\Images\splashpage.png" />
     <EmbeddedResource Include="Assets\Images\WavyPattern.png" />

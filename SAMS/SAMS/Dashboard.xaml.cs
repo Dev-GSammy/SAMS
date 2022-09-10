@@ -15,6 +15,45 @@ namespace SAMS
         public Dashboard()
         {
             InitializeComponent();
+            var assembly = typeof(Dashboard);
+
+            PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
+            DashboardImage.Source = ImageSource.FromResource("SAMS.Assets.Images.AdvertiseHere.png", assembly);
+        }
+
+        private void NoOfTimesPresentbtn_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MarkAttendancebtn_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GivePermissionbtn_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void shareBtn_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void HowToUseBtn_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AppInfoBtn_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AdvertiseBtn_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }
