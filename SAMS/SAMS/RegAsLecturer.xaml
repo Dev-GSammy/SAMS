@@ -108,6 +108,7 @@
                     <Button x:Name="LecRegisterButton"
                 CornerRadius="15"
                 Text="REGISTER"
+                    TextColor="{StaticResource TheAlmostWhite}"
                 CharacterSpacing="2"
                 FontAttributes="Bold"
                 FontSize="Large"

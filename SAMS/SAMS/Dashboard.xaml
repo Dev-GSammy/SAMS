@@ -1,28 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:SAMS"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="SAMS.Dashboard"
              BackgroundColor="Transparent">
     <ContentPage.Content>
-        <StackLayout xct:CornerRadiusEffect.CornerRadius="15,15,30,30" BackgroundColor="{StaticResource TheAlmostWhite}">
+        <StackLayout xct:CornerRadiusEffect.CornerRadius="15,15,30,30" Margin="0" BackgroundColor="{StaticResource TheAlmostWhite}">
 
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
             </Grid>
 
-            <Frame HeightRequest="150" Grid.Row="0" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
+            <Frame HeightRequest="200" CornerRadius="15" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
                 <Image 
-                      x:Name="PatternImage"
-                      Aspect="AspectFill"
-                      VerticalOptions="Fill"
-                      HorizontalOptions="Fill">
+                         x:Name="PatternImage"
+                        Aspect="AspectFill"
+                         VerticalOptions="Fill"
+                         HorizontalOptions="FillAndExpand">
                 </Image>
             </Frame>
             <StackLayout Grid.Row="0" Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="Transparent">
@@ -99,14 +98,14 @@
                 Margin="10,5"/>
             </StackLayout>
 
-            <StackLayout Grid.Row="2" BackgroundColor="Transparent" Orientation="Vertical" Margin="10">
+            <StackLayout Grid.Row="2" BackgroundColor="Transparent" Orientation="Vertical" Margin="10" VerticalOptions="End">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="End" Margin="5,5">
-                    <Button x:Name="shareBtn" FontFamily="PoppinsMedium" Text="Share App" BackgroundColor="{StaticResource TheAlmostWhite}" Clicked="shareBtn_Clicked" Margin="0,0,5,0" FontSize="Small" TextColor="{StaticResource TheBluePart}"/>
-                    <Button x:Name="HowToUseBtn" FontFamily="PoppinsMedium" Text="How to use" Clicked="HowToUseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}" BackgroundColor="{StaticResource TheBluePart}"/>
+                    <Button x:Name="shareBtn" CornerRadius="20" FontFamily="PoppinsMedium" Text="Share App" BackgroundColor="{StaticResource TheAlmostWhite}" Clicked="shareBtn_Clicked" Margin="0,0,5,0" FontSize="Small" TextColor="{StaticResource TheBluePart}"/>
+                    <Button x:Name="HowToUseBtn" CornerRadius="20" FontFamily="PoppinsMedium" Text="How to use" Clicked="HowToUseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}" BackgroundColor="{StaticResource TheBluePart}"/>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="End" Margin="5,5">
-                    <Button x:Name="AppInfoBtn" FontFamily="PoppinsMedium" Text="App Info" Clicked="AppInfoBtn_Clicked" BackgroundColor="{StaticResource TheBluePart}" Margin="0,0,5,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}"/>
-                    <Button x:Name="AdvertiseBtn" FontFamily="PoppinsMedium" Text="Advertise" Clicked="AdvertiseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}" BackgroundColor="{StaticResource TheBluePart}"/>
+                    <Button x:Name="AppInfoBtn" CornerRadius="20" FontFamily="PoppinsMedium" Text="App Info" Clicked="AppInfoBtn_Clicked" BackgroundColor="{StaticResource TheBluePart}" Margin="0,0,5,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}"/>
+                    <Button x:Name="AdvertiseBtn" CornerRadius="20" FontFamily="PoppinsMedium" Text="Advertise" Clicked="AdvertiseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}" BackgroundColor="{StaticResource TheBluePart}"/>
                 </StackLayout>
             </StackLayout>
 
@@ -114,7 +113,7 @@
                Margin="10,5"
                FontAttributes="Italic"
                FontFamily="PoppinsRegular"
-               BackgroundColor="{StaticResource TheAlmostWhite}"
+               BackgroundColor="Transparent"
                TextColor="{StaticResource TheBluePart}"
                FontSize="Small"
                HorizontalTextAlignment="Center"

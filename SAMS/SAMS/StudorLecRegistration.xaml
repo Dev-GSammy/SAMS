@@ -123,6 +123,7 @@
                 CornerRadius="15"
                 Text="REGISTER"
                 CharacterSpacing="2"
+                TextColor="{StaticResource TheAlmostWhite}"
                 FontAttributes="Bold"
                 FontSize="Large"
                 VerticalOptions="End"
