@@ -37,7 +37,13 @@
     <None Remove="Assets\Images\AdvertiseHere.PNG" />
     <None Remove="Assets\Images\app icon.png" />
     <None Remove="Assets\Images\closeButton.png" />
+    <None Remove="Assets\Images\DashboardImage.png" />
+    <None Remove="Assets\Images\DashboardImage1x.png" />
+    <None Remove="Assets\Images\DashboardImage3x.png" />
     <None Remove="Assets\Images\splash.png" />
+    <None Remove="Assets\Images\SplashImage.png" />
+    <None Remove="Assets\Images\SplashImage1x.png" />
+    <None Remove="Assets\Images\SplashImage3x.png" />
     <None Remove="Assets\Images\splashpage.png" />
     <None Remove="Assets\Images\WavyPattern.png" />
   </ItemGroup>
@@ -72,6 +78,12 @@
     <EmbeddedResource Include="Assets\Icons\WifiIcon.png" />
     <EmbeddedResource Include="Assets\Images\AdvertiseHere.png" />
     <EmbeddedResource Include="Assets\Images\app icon.png" />
+    <EmbeddedResource Include="Assets\Images\DashboardImage.png" />
+    <EmbeddedResource Include="Assets\Images\DashboardImage1x.png" />
+    <EmbeddedResource Include="Assets\Images\DashboardImage3x.png" />
+    <EmbeddedResource Include="Assets\Images\SplashImage.png" />
+    <EmbeddedResource Include="Assets\Images\SplashImage1x.png" />
+    <EmbeddedResource Include="Assets\Images\SplashImage3x.png" />
     <EmbeddedResource Include="Assets\Images\splashpage.png" />
     <EmbeddedResource Include="Assets\Images\WavyPattern.png" />
   </ItemGroup>
