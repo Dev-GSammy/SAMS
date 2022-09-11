@@ -14,41 +14,40 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-            
 
-            <Frame HeightRequest="200" Grid.Row="0" Padding="0" Margin="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
-                <Image
+
+                <Frame HeightRequest="200" Grid.Row="0" Padding="0" Margin="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
+                    <Image
                          x:Name="PatternImage"
                         Aspect="AspectFill"
                          VerticalOptions="Fill"
                          HorizontalOptions="Fill">
-                </Image>
-            </Frame>
-            <StackLayout Grid.Row="0" HeightRequest="150" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Fill" BackgroundColor="Transparent">
-                <Grid HorizontalOptions="Fill" VerticalOptions="Fill">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="auto"/>
-                        <ColumnDefinition Width="auto"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="auto"/>
-                        <ColumnDefinition Width="auto"/>
-                    </Grid.ColumnDefinitions>
-                </Grid>
+                    </Image>
+                </Frame>
+                <StackLayout Grid.Row="0" HeightRequest="150" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Fill" BackgroundColor="Transparent">
+                    <Grid HorizontalOptions="Fill" VerticalOptions="Fill">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
                     <Label TextColor="{StaticResource TheAlmostWhite}" FontSize="Title" Text="L" Margin="10" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Start"/>
                     <Image Grid.ColumnSpan="3"
                         HeightRequest="150"
                         WidthRequest="150"
                     xct:CornerRadiusEffect.CornerRadius="15"
-                    Grid.Column="1"
+                    Grid.Column="2"
                     x:Name="DashboardImage"
                     Aspect="AspectFit"
-                    VerticalOptions="Fill"
-                    HorizontalOptions="Center"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
                     />
                     <Label TextColor="{StaticResource TheAlmostWhite}" Text="R" FontSize="Title" Margin="10" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End"/>
-            </StackLayout>
-
-            <StackLayout Grid.Row="2" BackgroundColor="Transparent" VerticalOptions="Center" Orientation="Vertical" Margin="10">
+                </StackLayout>
+                <StackLayout Grid.Row="2" BackgroundColor="Transparent" VerticalOptions="Center" Orientation="Vertical" Margin="10">
                 
                 <Button x:Name="MarkAttendancebtn"
                 CornerRadius="15"

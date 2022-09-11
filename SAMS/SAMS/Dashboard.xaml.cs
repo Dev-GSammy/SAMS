@@ -18,7 +18,7 @@ namespace SAMS
             var assembly = typeof(Dashboard);
 
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
-            DashboardImage.Source = ImageSource.FromResource("SAMS.Assets.Images.DashboardImage.png", assembly);
+            DashboardImage.Source = ImageSource.FromResource("SAMS.Assets.Images.DashboardImage3x.png", assembly);
         }
 
         private void NoOfTimesPresentbtn_Clicked(object sender, EventArgs e)
