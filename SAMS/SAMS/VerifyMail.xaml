@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SAMS.VerifyMail"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             BackgroundColor="Transparent"
+             >
+    <ContentPage.Content>
+        <StackLayout xct:CornerRadiusEffect.CornerRadius="15,15,30,30" BackgroundColor="{StaticResource TheAlmostWhite}">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Frame HeightRequest="150" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
+                    <Image 
+                         x:Name="PatternImage"
+                            Aspect="AspectFill"
+                         VerticalOptions="Fill"
+                         HorizontalOptions="Fill">
+                    </Image>
+                </Frame>
+                <Label Text="Please check your mail"
+                           FontSize="Title"
+                           FontFamily="Poppins"
+                           FontAttributes="Bold"
+                           CharacterSpacing="2"
+                           TextColor="{StaticResource TheAlmostWhite}"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Grid.Row="0"
+                    />
+                <StackLayout Grid.Row="1">
+                    <Frame Margin="10,10,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                        <Entry Grid.Row="0" x:Name="VerifyEmailEntry"
+                        FontSize="Body"
+                        Margin="10,5"
+                        PlaceholderColor="{StaticResource TheAshPart}"
+                        TextColor="Black"
+                        VerticalOptions="End"
+                        Placeholder="Please Enter your email"/>
+                    </Frame>
+                    <Button Grid.Row="2" x:Name="SubmitEmailBtn"
+                         CornerRadius="15"
+                         Text="Submit"
+                         TextColor="{StaticResource TheAlmostWhite}"
+                         CharacterSpacing="2"
+                         FontAttributes="Bold"
+                        FontSize="Large"
+                        Clicked="SubmitEmailBtn_Clicked"
+                     VerticalOptions="End"
+                     BackgroundColor="{StaticResource TheBluePart}"
+                     HorizontalOptions="FillAndExpand"
+                        Margin="10,30,10,0"/>
+                </StackLayout>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

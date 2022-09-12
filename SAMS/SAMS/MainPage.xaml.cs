@@ -40,9 +40,9 @@ namespace SAMS
             }
         }
 
-        private void ForgotPassButton_Clicked(object sender, EventArgs e)
+        async private void ForgotPassButton_Clicked(object sender, EventArgs e)
         {
-            
+            await Navigation.PushModalAsync(new VerifyMail());
         }
     }
 }
