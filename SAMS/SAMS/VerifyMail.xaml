@@ -13,7 +13,7 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Frame HeightRequest="150" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
                     <Image 
@@ -43,9 +43,24 @@
                         VerticalOptions="End"
                         Placeholder="Please Enter your email"/>
                     </Frame>
+                    <!--<Button
+                        x:Name="Resendbtn"
+                        CornerRadius="15"
+                        Text="Send my Password"
+                        TextColor="{StaticResource TheBluePart}"
+                        CharacterSpacing="1"
+                        FontAttributes="None"
+                        FontSize="Subtitle"
+                        Clicked="Resendbtn_Clicked"
+                        VerticalOptions="Center"
+                        BackgroundColor="Transparent"
+                        HorizontalOptions="Start"
+                        />-->
+                </StackLayout>
+                <StackLayout Grid.Row="2" Grid.RowSpan="3" VerticalOptions="Center">
                     <Button Grid.Row="2" x:Name="SubmitEmailBtn"
                          CornerRadius="15"
-                         Text="Submit"
+                         Text="Send my Password"
                          TextColor="{StaticResource TheAlmostWhite}"
                          CharacterSpacing="2"
                          FontAttributes="Bold"
@@ -56,8 +71,18 @@
                      HorizontalOptions="FillAndExpand"
                         Margin="10,30,10,0"/>
                 </StackLayout>
-
             </Grid>
+            <Label Text="Student Attendance Management System"
+               Margin="10,5"
+               FontAttributes="Italic"
+               FontFamily="PoppinsRegular"
+               BackgroundColor="Transparent"
+               TextColor="{StaticResource TheBluePart}"
+               FontSize="Small"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="CenterAndExpand"
+               VerticalTextAlignment="End"
+               VerticalOptions="EndAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

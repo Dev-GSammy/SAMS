@@ -22,7 +22,12 @@ namespace SAMS
 
         private void SubmitEmailBtn_Clicked(object sender, EventArgs e)
         {
-
+            DisplayAlert("Send Password", "Your password has been successfully sent to the mail provided.", "Thank you");
         }
+
+       // private void Resendbtn_Clicked(object sender, EventArgs e)
+       //{
+
+//        }
     }
 }
