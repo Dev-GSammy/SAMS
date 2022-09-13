@@ -122,6 +122,7 @@
                     <Button x:Name="studRegisterButton"
                 CornerRadius="15"
                 Text="REGISTER"
+                Clicked="studRegisterButton_Clicked"
                 CharacterSpacing="2"
                 TextColor="{StaticResource TheAlmostWhite}"
                 FontAttributes="Bold"
