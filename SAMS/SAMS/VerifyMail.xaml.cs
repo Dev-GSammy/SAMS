@@ -20,9 +20,9 @@ namespace SAMS
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
         }
 
-        async private void SubmitOTPbtn_Clicked(object sender, EventArgs e)
+        private void SubmitOTPbtn_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new VerifyMail());
+            
         }
 
         private void Resendbtn_Clicked(object sender, EventArgs e)

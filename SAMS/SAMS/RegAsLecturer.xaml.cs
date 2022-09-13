@@ -20,10 +20,10 @@ namespace SAMS
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
         }
 
-        private void LecRegisterButton_Clicked(object sender, EventArgs e)
+        async private void LecRegisterButton_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Confirm Identity","We need to confirm you are a lecturer. \n Please input the OTP sent to your mail.","Okay");
-
+            await DisplayAlert("Confirm Identity","We need to confirm you are a lecturer. \n Please input the OTP sent to your mail.","Okay");
+            await Navigation.PushModalAsync(new VerifyMail());
         }
     }
 }
