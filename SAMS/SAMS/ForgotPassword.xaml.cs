@@ -10,19 +10,20 @@ using Xamarin.Forms.Xaml;
 namespace SAMS
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class VerifyMail : ContentPage
+    public partial class ForgotPassword : ContentPage
     {
-        public VerifyMail()
+        public ForgotPassword()
         {
             InitializeComponent();
-            var assembly = typeof(VerifyMail);
-
+            var assembly = typeof(ForgotPassword);
+            
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
         }
 
         private void SubmitEmailBtn_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Send Password", "Your password has been successfully sent to the mail provided.", "Thank you");
+            DisplayAlert("Send Password", "Your password has been successfully sent to the mail provided.", "Thank you", FlowDirection.LeftToRight);
+            
         }
 
        // private void Resendbtn_Clicked(object sender, EventArgs e)

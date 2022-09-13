@@ -42,7 +42,7 @@ namespace SAMS
 
         async private void ForgotPassButton_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new VerifyMail());
+            await Navigation.PushModalAsync(new ForgotPassword());
         }
     }
 }
