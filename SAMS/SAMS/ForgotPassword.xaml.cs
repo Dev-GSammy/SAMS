@@ -16,7 +16,7 @@ namespace SAMS
         {
             InitializeComponent();
             var assembly = typeof(ForgotPassword);
-            
+
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
         }
 

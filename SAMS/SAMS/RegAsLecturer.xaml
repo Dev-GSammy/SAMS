@@ -111,6 +111,7 @@
                     TextColor="{StaticResource TheAlmostWhite}"
                 CharacterSpacing="2"
                 FontAttributes="Bold"
+                Clicked="LecRegisterButton_Clicked"
                 FontSize="Large"
                 VerticalOptions="End"
                 BackgroundColor="{StaticResource TheBluePart}"
