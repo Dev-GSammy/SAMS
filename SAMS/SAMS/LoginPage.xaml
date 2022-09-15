@@ -75,6 +75,7 @@
             <Button Grid.Row="2" x:Name="LoginButton"
                 CornerRadius="15"
                 Text="Login"
+                IsEnabled="True"
                 TextColor="{StaticResource TheAlmostWhite}"
                 CharacterSpacing="2"
                 Clicked="LoginButton_Clicked"

@@ -55,8 +55,8 @@
                     </Frame>
                 </StackLayout>
             </Grid>
-            
-                <Button x:Name="ChooseCourseBtn"
+
+            <Button x:Name="ChooseCourseBtn"
                          CornerRadius="15"
                          Text="Choose"
                          TextColor="{StaticResource TheAlmostWhite}"
@@ -68,7 +68,6 @@
                      BackgroundColor="{StaticResource TheBluePart}"
                      HorizontalOptions="FillAndExpand"
                         Margin="10,30,10,0"/>
-            
             <Label Text="Student Attendance Management System"
                Margin="10,5"
                FontAttributes="Italic"
