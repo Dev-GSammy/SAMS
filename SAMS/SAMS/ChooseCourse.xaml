@@ -14,7 +14,7 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
                 <Frame HeightRequest="150" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
                     <Image 
@@ -53,6 +53,20 @@
                             
                         </ListView>
                     </Frame>
+                </StackLayout>
+                <StackLayout Grid.Row="4" VerticalOptions="Center">
+                    <Button Grid.Row="4" x:Name="ChooseCourseBtn"
+                         CornerRadius="15"
+                         Text="Choose"
+                         TextColor="{StaticResource TheAlmostWhite}"
+                         CharacterSpacing="2"
+                         FontAttributes="Bold"
+                        FontSize="Large"
+                        Clicked="ChooseCourseBtn_Clicked"
+                     VerticalOptions="End"
+                     BackgroundColor="{StaticResource TheBluePart}"
+                     HorizontalOptions="FillAndExpand"
+                        Margin="10,30,10,0"/>
                 </StackLayout>
             </Grid>
             <Label Text="Student Attendance Management System"
