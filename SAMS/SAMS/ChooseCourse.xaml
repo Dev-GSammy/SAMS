@@ -14,6 +14,7 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Frame HeightRequest="150" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
                     <Image 
@@ -36,11 +37,11 @@
                 <StackLayout Grid.Row="1">
                     <Frame Margin="10,10,10,0" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
                         <Label Text="Please choose the course you want to mark for:"
-                           FontSize="Large"
+                           FontSize="Medium"
                            FontFamily="Poppins"
                            FontAttributes="Bold"
                            CharacterSpacing="2"
-                           TextColor="{StaticResource TheBluePart}"
+                           TextColor="Black"
                            HorizontalOptions="Start"
                            VerticalOptions="Center"
                            Grid.Row="0"/>

@@ -26,9 +26,9 @@ namespace SAMS
 
         }
 
-        private void MarkAttendancebtn_Clicked(object sender, EventArgs e)
+        async private void MarkAttendancebtn_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new ChooseCourse());
         }
 
         private void GivePermissionbtn_Clicked(object sender, EventArgs e)
