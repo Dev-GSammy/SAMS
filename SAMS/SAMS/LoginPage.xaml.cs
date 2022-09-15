@@ -11,12 +11,12 @@ using Xamarin.CommunityToolkit.UI.Views;
 
 namespace SAMS
 {
-    public partial class MainPage : ContentPage
+    public partial class LoginPage : ContentPage
     {
-        public MainPage()
+        public LoginPage()
         {
             InitializeComponent();
-            var assembly = typeof(MainPage);
+            var assembly = typeof(LoginPage);
 
             SplashScreenImage.Source = ImageSource.FromResource("SAMS.Assets.Images.SplashImage.png", assembly);
 

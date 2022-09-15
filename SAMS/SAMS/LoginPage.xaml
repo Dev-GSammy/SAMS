@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SAMS"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
-             x:Class="SAMS.MainPage"
+             x:Class="SAMS.LoginPage"
              BackgroundColor="Transparent">
    
     <!--<Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
