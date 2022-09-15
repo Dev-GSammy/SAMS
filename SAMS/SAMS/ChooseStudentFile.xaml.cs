@@ -15,6 +15,19 @@ namespace SAMS
         public ChooseStudentFile()
         {
             InitializeComponent();
+            var assembly = typeof(ForgotPassword);
+
+            PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
+        }
+
+        private void UploadStudentCSVbtn_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ChooseStudentFileBtn_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }
