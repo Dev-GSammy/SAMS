@@ -54,7 +54,7 @@
                         Clicked="Resendbtn_Clicked"
                         VerticalOptions="Center"
                         BackgroundColor="Transparent"
-                        HorizontalOptions="Start"
+                        HorizontalOptions="End"
                         />
                 </StackLayout>
                 <StackLayout Grid.Row="2" Grid.RowSpan="3" VerticalOptions="Center">
