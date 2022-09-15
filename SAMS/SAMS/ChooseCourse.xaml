@@ -14,7 +14,7 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="auto"/>
+                    
                 </Grid.RowDefinitions>
                 <Frame HeightRequest="150" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
                     <Image 
@@ -50,12 +50,13 @@
                 <StackLayout Grid.Row="2" Grid.RowSpan="3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                     <Frame Margin="10,10,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
                         <ListView>
-                            
+
                         </ListView>
                     </Frame>
                 </StackLayout>
-                <StackLayout Grid.Row="4" VerticalOptions="Center">
-                    <Button Grid.Row="4" x:Name="ChooseCourseBtn"
+            </Grid>
+            
+                <Button x:Name="ChooseCourseBtn"
                          CornerRadius="15"
                          Text="Choose"
                          TextColor="{StaticResource TheAlmostWhite}"
@@ -63,12 +64,11 @@
                          FontAttributes="Bold"
                         FontSize="Large"
                         Clicked="ChooseCourseBtn_Clicked"
-                     VerticalOptions="End"
+                     VerticalOptions="EndAndExpand"
                      BackgroundColor="{StaticResource TheBluePart}"
                      HorizontalOptions="FillAndExpand"
                         Margin="10,30,10,0"/>
-                </StackLayout>
-            </Grid>
+            
             <Label Text="Student Attendance Management System"
                Margin="10,5"
                FontAttributes="Italic"
