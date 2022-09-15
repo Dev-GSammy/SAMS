@@ -50,7 +50,7 @@
                 Clicked="RegAsLecturer_Clicked"
                 />
         </StackLayout>
-        <StackLayout Grid.Row="2" VerticalOptions="End">
+        <!--<StackLayout Grid.Row="2" VerticalOptions="End">
             <Label Text="Student Attendance Management System"
                Margin="10,5"
                FontAttributes="Italic"
@@ -62,6 +62,6 @@
                HorizontalOptions="CenterAndExpand"
                VerticalTextAlignment="End"
                VerticalOptions="EndAndExpand" />
-        </StackLayout>
+        </StackLayout>-->
     </Grid>
 </xct:Popup>
