@@ -38,7 +38,7 @@
                         <Entry Grid.Row="0" x:Name="studRegName"
                         FontSize="Body"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Name"/>
@@ -47,7 +47,7 @@
                         <Entry Grid.Row="0" x:Name="studRegMatric"
                         FontSize="Body"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="Gray"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Matric No (Without slashes, please)"/>
@@ -56,7 +56,7 @@
                         <Entry Grid.Row="0" x:Name="studRegEmail"
                         FontSize="Body"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Your Email (johndoe@gmail.com)"/>
@@ -65,7 +65,7 @@
                         <Entry Grid.Row="0" x:Name="studRegSchool"
                         FontSize="Body"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Your school"/>
@@ -74,7 +74,7 @@
                         <Entry Grid.Row="0" x:Name="studRegDepartment"
                         FontSize="Body"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Department"/>
@@ -83,7 +83,7 @@
                         <Entry Grid.Row="0" x:Name="studRegLevel"
                         FontSize="Body"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Level (must be in digits e.g 200)"/>
@@ -92,7 +92,7 @@
                         <Entry Grid.Row="0" x:Name="studRegCurrentYear"
                         FontSize="Body"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Current Year"/>
@@ -102,7 +102,7 @@
                         FontSize="Body"
                         IsPassword="True"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Password (Please set a strong one)"/>
@@ -112,7 +112,7 @@
                         FontSize="Body"
                         IsPassword="True"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Confirm Password"/>

@@ -8,6 +8,7 @@
             <Color x:Key="TheAshPart">#2E334D</Color>
             <Color x:Key="TheWhitePart">#FFFFFF</Color>
             <Color x:Key="TheAlmostWhite">#FBFBFB</Color>
+            <Color x:Key="TheGrayPart">Gray</Color>
             <Style TargetType="Button">
                 <Setter Property="FontFamily" Value="PoppinsSemiBold"/>
                 <Style.Triggers>

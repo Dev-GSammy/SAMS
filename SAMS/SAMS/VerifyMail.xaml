@@ -38,7 +38,7 @@
                         <Entry Grid.Row="0" x:Name="OTPEntry"
                         FontSize="Body"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Please Enter your OTP"/>

@@ -37,7 +37,7 @@
                         <Entry Grid.Row="0" x:Name="LecRegName"
                         FontSize="Body"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Name"/>
@@ -46,7 +46,7 @@
                         <Entry Grid.Row="0" x:Name="LecID"
                         FontSize="Body"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Lecturer ID (School Recognized)"/>
@@ -55,7 +55,7 @@
                         <Entry Grid.Row="0" x:Name="LecEmail"
                         FontSize="Body"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Lecturer Email (School Recognized)"/>
@@ -64,7 +64,7 @@
                         <Entry Grid.Row="0" x:Name="LecRegSchool"
                         FontSize="Body"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Your school"/>
@@ -73,7 +73,7 @@
                         <Entry Grid.Row="0" x:Name="LecRegCurrentYear"
                         FontSize="Body"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Current Year"/>
@@ -83,7 +83,7 @@
                         FontSize="Body"
                         IsPassword="True"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Password (Please set a strong one)"/>
@@ -97,7 +97,7 @@
                         FontSize="Body"
                         IsPassword="True"
                         Margin="10,5"
-                        PlaceholderColor="{StaticResource TheAshPart}"
+                        PlaceholderColor="{StaticResource TheGrayPart}"
                         TextColor="Black"
                         VerticalOptions="End"
                         Placeholder="Confirm Password"/>
