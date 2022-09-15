@@ -35,7 +35,7 @@
                            Grid.Row="0"
                     />
                 <StackLayout Grid.Row="1">
-                    <Frame Margin="10,10,10,10" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                    <Frame Margin="10,0,10,10" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
                         <Label Text="Choose from the list or upload student CSV file."
                            FontSize="Medium"
                            FontFamily="Poppins"
@@ -46,7 +46,7 @@
                            VerticalOptions="Center"
                            Grid.Row="0"/>
                     </Frame>
-                    <StackLayout Grid.Row="1" Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="0" Margin="0">
+                    <StackLayout Grid.Row="1" Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="10,0" Margin="0">
                         <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Padding="0" Margin="0">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
@@ -55,7 +55,7 @@
                             <Label Grid.Column="0"
                                 x:Name="StudentFileNameDisplayLabel"
                                 Text="Demo Student File Name display"
-                                HorizontalOptions="Center"
+                                HorizontalOptions="Start"
                                 VerticalOptions="Center"
                                 BackgroundColor="Transparent"
                                 TextColor="Black"
@@ -66,15 +66,14 @@
                             <Button Grid.Column="1"
                                 x:Name="UploadStudentCSVbtn"
                                 Text="Upload"
-                                 HorizontalOptions="Center"
+                                HorizontalOptions="Center"
                                 VerticalOptions="Center"
-                                BackgroundColor="{StaticResource TheBluePart}"
+                                BackgroundColor="DarkGray"
                                 TextColor="{StaticResource TheAlmostWhite}"
                                 FontFamily="Poppins"
                                 Clicked="UploadStudentCSVbtn_Clicked"
                                 CornerRadius="5"
                                 Margin="0"
-                                Padding="0"
                                 FontAttributes="None"
                                 FontSize="Medium"
                                 />
