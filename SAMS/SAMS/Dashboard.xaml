@@ -100,6 +100,18 @@
                 BackgroundColor="{StaticResource TheBluePart}"
                 HorizontalOptions="FillAndExpand"
                 Margin="10,5"/>
+                <Button x:Name="CheckReportbtn"
+                CornerRadius="15"
+                Text="Check Report"
+                TextColor="{StaticResource TheAlmostWhite}"
+                CharacterSpacing="2"
+                Clicked="CheckReportbtn_Clicked"
+                FontAttributes="Bold"
+                FontSize="Large"
+                VerticalOptions="End"
+                BackgroundColor="{StaticResource TheBluePart}"
+                HorizontalOptions="FillAndExpand"
+                Margin="10,5"/>
             </StackLayout>
 
             

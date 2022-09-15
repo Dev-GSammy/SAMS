@@ -55,5 +55,10 @@ namespace SAMS
         {
 
         }
+
+        private void CheckReportbtn_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
