@@ -68,7 +68,7 @@
                                 Text="Upload"
                                 HorizontalOptions="Center"
                                 VerticalOptions="Center"
-                                BackgroundColor="DarkGray"
+                                BackgroundColor="{StaticResource TheBluePart}"
                                 TextColor="{StaticResource TheAlmostWhite}"
                                 FontFamily="Poppins"
                                 Clicked="UploadStudentCSVbtn_Clicked"
