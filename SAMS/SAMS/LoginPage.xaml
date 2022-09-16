@@ -54,13 +54,15 @@
                 </Grid.RowDefinitions>
             </Grid>
             <Frame Margin="10,10,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="15" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
-                <Entry Grid.Row="0" x:Name="nameEntry"
-               FontSize="Body"
-               Margin="10,5"
-               PlaceholderColor="{StaticResource TheGrayPart}"
-               TextColor="Black"
-                   VerticalOptions="End"
-               Placeholder="Username"/>
+                <Entry Grid.Column="1"
+                        Grid.Row="0" x:Name="nameEntry"
+                        FontSize="Body"
+                         Margin="10,5"
+                         HorizontalOptions="FillAndExpand"
+                          PlaceholderColor="{StaticResource TheGrayPart}"
+                        TextColor="Black"
+                            VerticalOptions="End"
+                        Placeholder="Username"/>
             </Frame>
             <Frame Margin="10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="15" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
                 <Entry Grid.Row="0" x:Name="passwordEntry"

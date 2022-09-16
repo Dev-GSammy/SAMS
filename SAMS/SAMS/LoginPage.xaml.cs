@@ -19,7 +19,7 @@ namespace SAMS
             var assembly = typeof(LoginPage);
 
             SplashScreenImage.Source = ImageSource.FromResource("SAMS.Assets.Images.SplashImage.png", assembly);
-
+            NameEntryIcon.Source = ImageSource.FromResource("SAMS.Assets.Icons.Usercheck.png", assembly);
         }
 
         async private void LoginButton_Clicked(object sender, EventArgs e)
