@@ -24,7 +24,7 @@
                          HorizontalOptions="Fill">
                     </Image>
                 </Frame>
-                <Label Text="Choose Course"
+                <Label Text="Mark Attendance"
                            FontSize="Title"
                            FontFamily="Poppins"
                            FontAttributes="Bold"
@@ -36,13 +36,13 @@
                     />
                 <StackLayout Grid.Row="1">
                     <Frame Margin="10,10,10,0" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
-                        <Label Text="Please choose the course you want to mark for:"
+                        <Label Text="Demo Student File: IFT 400l Student data"
                            FontSize="Medium"
                            FontFamily="Poppins"
                            FontAttributes="Bold"
                            CharacterSpacing="2"
                            TextColor="Black"
-                           HorizontalOptions="Start"
+                           HorizontalOptions="Center"
                            VerticalOptions="Center"
                            Grid.Row="0"/>
                     </Frame>
@@ -50,19 +50,20 @@
                 <StackLayout Grid.Row="2" Grid.RowSpan="3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                     <Frame Margin="10,10,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
                         <ListView>
-
+                            
                         </ListView>
                     </Frame>
                 </StackLayout>
             </Grid>
 
-            <Button x:Name="ChooseCourseBtn"
+            <Button x:Name="SubmitAttendancebtn"
                          CornerRadius="15"
-                         Text="Choose"
+                         Text="Submit Attendance"
                          TextColor="{StaticResource TheAlmostWhite}"
                          CharacterSpacing="2"
                          FontAttributes="Bold"
                         FontSize="Large"
+                        Clicked="SubmitAttendancebtn_Clicked"
                      VerticalOptions="EndAndExpand"
                      BackgroundColor="{StaticResource TheBluePart}"
                      HorizontalOptions="FillAndExpand"

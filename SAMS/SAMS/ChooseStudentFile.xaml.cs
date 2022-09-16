@@ -26,9 +26,9 @@ namespace SAMS
 
         }
 
-        private void ChooseStudentFileBtn_Clicked(object sender, EventArgs e)
+        async private void ChooseStudentFileBtn_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new MarkAttendance());
         }
     }
 }

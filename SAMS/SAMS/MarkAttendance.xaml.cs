@@ -16,5 +16,10 @@ namespace SAMS
         {
             InitializeComponent();
         }
+
+        private void SubmitAttendancebtn_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
