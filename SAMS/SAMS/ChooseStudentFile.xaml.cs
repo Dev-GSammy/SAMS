@@ -18,7 +18,7 @@ namespace SAMS
             var assembly = typeof(ForgotPassword);
 
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
-            UploadStudentCSVbtn.ImageSource = ImageSource.FromResource("SAMS.Assets.Icons.LockIcon.png", assembly);
+            //UploadStudentCSVbtn.ImageSource = ImageSource.FromResource("SAMS.Assets.Icons.LockIcon.png", assembly);
         }
 
         private void UploadStudentCSVbtn_Clicked(object sender, EventArgs e)
