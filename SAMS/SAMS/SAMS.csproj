@@ -99,6 +99,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="DownloadOrSendToMailPopup.xaml.cs">
+      <DependentUpon>DownloadOrSendToMailPopup.xaml</DependentUpon>
+    </Compile>
     <Compile Update="ForgotPassword.xaml.cs">
       <DependentUpon>ForgotPassword.xaml</DependentUpon>
     </Compile>
@@ -129,7 +132,7 @@
     <EmbeddedResource Update="Dashboard.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="DownloadOrSendToMail.xaml">
+    <EmbeddedResource Update="DownloadOrSendToMailPopup.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="HowToUse.xaml">
