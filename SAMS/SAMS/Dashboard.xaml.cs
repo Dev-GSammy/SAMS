@@ -20,12 +20,6 @@ namespace SAMS
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
             DashboardImage.Source = ImageSource.FromResource("SAMS.Assets.Images.DashboardImage3x.png", assembly);
         }
-
-        private void NoOfTimesPresentbtn_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
         async private void MarkAttendancebtn_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new ChooseCourse());
@@ -59,6 +53,11 @@ namespace SAMS
         private void CheckReportbtn_Clicked(object sender, EventArgs e)
         {
 
+        }
+
+        async private void YourAttendanceRecordbtn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new ChooseCourse());
         }
     }
 }

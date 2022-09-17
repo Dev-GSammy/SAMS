@@ -62,12 +62,12 @@
                 HorizontalOptions="FillAndExpand"
                 Margin="10,5"/>
                 
-                <Button x:Name="NoOfTimesPresentbtn"
+                <Button x:Name="YourAttendanceRecordbtn"
                 CornerRadius="15"
-                Text="Check No. of times present"
+                Text="Your Attendance Record"
                 TextColor="{StaticResource TheAlmostWhite}"
                 CharacterSpacing="2"
-                Clicked="NoOfTimesPresentbtn_Clicked"
+                Clicked="YourAttendanceRecordbtn_Clicked"
                 FontAttributes="Bold"
                 FontSize="Large"
                 VerticalOptions="End"
