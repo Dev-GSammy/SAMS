@@ -21,7 +21,7 @@ namespace SAMS
             
         }
 
-         async private void ChooseCourseBtn_Clicked(object sender, EventArgs e)
+        async private void ChooseCourseMarkAttendancebtn_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new ChooseStudentFile());
         }

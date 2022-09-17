@@ -56,14 +56,14 @@
                 </StackLayout>
             </Grid>
 
-            <Button x:Name="ChooseCourseBtn"
+            <Button x:Name="ChooseCourseMarkAttendancebtn"
                          CornerRadius="15"
                          Text="Choose"
                          TextColor="{StaticResource TheAlmostWhite}"
                          CharacterSpacing="2"
                          FontAttributes="Bold"
                         FontSize="Large"
-                        Clicked="ChooseCourseBtn_Clicked"
+                        Clicked="ChooseCourseMarkAttendancebtn_Clicked"
                      VerticalOptions="EndAndExpand"
                      BackgroundColor="{StaticResource TheBluePart}"
                      HorizontalOptions="FillAndExpand"
