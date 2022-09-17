@@ -36,7 +36,7 @@
                     />
                 <StackLayout Grid.Row="1">
                     <Frame Margin="10,10,10,0" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
-                        <Label Text="Please choose the course you want to mark for:"
+                        <Label Text="Please choose a course from the list below:"
                            FontSize="Medium"
                            FontFamily="Poppins"
                            FontAttributes="Bold"
