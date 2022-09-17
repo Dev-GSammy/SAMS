@@ -18,6 +18,9 @@ namespace SAMS
         public MarkAttendance()
         {
             InitializeComponent();
+            var assembly = typeof(ForgotPassword);
+
+            PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
         }
 
         async private void SubmitAttendancebtn_Clicked(object sender, EventArgs e)

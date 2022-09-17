@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="SAMS.DownloadOrSendToMailPopup"
-           x:TypeArguments="x:Boolean"
+            x:TypeArguments="x:Boolean"
             IsLightDismissEnabled="True"
            Size="300,300"
            HorizontalOptions="Center"
