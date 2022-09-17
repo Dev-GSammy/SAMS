@@ -15,7 +15,7 @@ namespace SAMS
         public ChooseStudentFile()
         {
             InitializeComponent();
-            var assembly = typeof(ForgotPassword);
+            var assembly = typeof(ChooseStudentFile);
 
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
             //UploadStudentCSVbtn.ImageSource = ImageSource.FromResource("SAMS.Assets.Icons.LockIcon.png", assembly);

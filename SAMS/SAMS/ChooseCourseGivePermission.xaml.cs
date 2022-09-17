@@ -10,20 +10,19 @@ using Xamarin.Forms.Xaml;
 namespace SAMS
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ChooseCourseMarkAttendance : ContentPage
+    public partial class ChooseCourseGivePermission : ContentPage
     {
-        public ChooseCourseMarkAttendance()
+        public ChooseCourseGivePermission()
         {
             InitializeComponent();
-            var assembly = typeof(ChooseCourseMarkAttendance);
+            var assembly = typeof(ChooseCourseGivePermission);
 
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
-            
         }
 
-        async private void ChooseCourseMarkAttendancebtn_Clicked(object sender, EventArgs e)
+        private void ChooseCourseGivePermissionbtn_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new ChooseStudentFile());
+
         }
     }
 }

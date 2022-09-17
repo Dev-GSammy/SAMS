@@ -99,6 +99,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="ChooseCourseMarkAttendance.xaml.cs">
+      <DependentUpon>ChooseCourseMarkAttendance.xaml</DependentUpon>
+    </Compile>
     <Compile Update="DownloadOrSendToMailPopup.xaml.cs">
       <DependentUpon>DownloadOrSendToMailPopup.xaml</DependentUpon>
     </Compile>
@@ -123,7 +126,16 @@
     <EmbeddedResource Update="CheckReport.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ChooseCourse.xaml">
+    <EmbeddedResource Update="ChooseCourseCheckReports.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ChooseCourseGivePermission.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ChooseCourseMarkAttendance.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ChooseCourseYourAttRec.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="ChooseStudentFile.xaml">

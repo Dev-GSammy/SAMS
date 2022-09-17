@@ -18,7 +18,7 @@ namespace SAMS
         public MarkAttendance()
         {
             InitializeComponent();
-            var assembly = typeof(ForgotPassword);
+            var assembly = typeof(MarkAttendance);
 
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
         }
