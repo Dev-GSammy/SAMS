@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace SAMS
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ChooseCourse : ContentPage
+    public partial class ChooseCourseMarkAttendance : ContentPage
     {
-        public ChooseCourse()
+        public ChooseCourseMarkAttendance()
         {
             InitializeComponent();
             var assembly = typeof(ForgotPassword);

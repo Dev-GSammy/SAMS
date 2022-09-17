@@ -22,12 +22,12 @@ namespace SAMS
         }
         async private void MarkAttendancebtn_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new ChooseCourse());
+            await Navigation.PushModalAsync(new ChooseCourseMarkAttendance());
         }
 
-        private void GivePermissionbtn_Clicked(object sender, EventArgs e)
+        async private void GivePermissionbtn_Clicked(object sender, EventArgs e)
         {
-
+            
         }
 
         private void shareBtn_Clicked(object sender, EventArgs e)
@@ -57,7 +57,7 @@ namespace SAMS
 
         async private void YourAttendanceRecordbtn_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new ChooseCourse());
+            
         }
     }
 }
