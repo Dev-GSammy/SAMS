@@ -25,6 +25,7 @@ namespace SAMS
 
         async private void SubmitAttendancebtn_Clicked(object sender, EventArgs e)
         {
+            await DisplayAlert("Success","Attendance submission successful","Okay");
             var result = await App.Current.MainPage.Navigation.ShowPopupAsync(new DownloadOrSendToMailPopup());
 
             if (result)
