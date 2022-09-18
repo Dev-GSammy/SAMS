@@ -29,35 +29,42 @@ namespace SAMS
         {
             await Navigation.PushModalAsync(new ChooseCourseGivePermission());
         }
-
-        private void shareBtn_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void HowToUseBtn_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void AppInfoBtn_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void AdvertiseBtn_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-       async private void CheckReportbtn_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushModalAsync(new ChooseCourseCheckReports());
-        }
-
         async private void YourAttendanceRecordbtn_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new ChooseCourseYourAttRec());
+        }
+        async private void CheckReportbtn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new ChooseCourseCheckReports());
+        }
+        async private void AddCoursebtn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new AddCourse());
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+
+        async private void shareBtn_Clicked(object sender, EventArgs e)
+        {
+            
+        }
+
+        async private void HowToUseBtn_Clicked(object sender, EventArgs e)
+        {
+            
+        }
+
+        async private void AppInfoBtn_Clicked(object sender, EventArgs e)
+        {
+            
+        }
+
+        async private void AdvertiseBtn_Clicked(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -33,8 +33,8 @@
                Margin="5"
                BackgroundColor="Transparent"/>
             <ProgressBar
-                ProgressColor="{StaticResource TheBluePart}"
-                BackgroundColor="{StaticResource TheAlmostWhite}"
+                ProgressColor="{StaticResource TheAlmostWhite}"
+                BackgroundColor="{StaticResource TheBluePart}"
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="Center"
                 x:Name="ProgressBarPopup"
