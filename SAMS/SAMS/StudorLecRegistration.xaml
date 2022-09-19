@@ -12,9 +12,8 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="auto"/>
-                </Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
                 
                 <Frame HeightRequest="150" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
                     <Image 
@@ -119,8 +118,8 @@
                         Placeholder="Confirm Password"/>
                     </Frame>
                 </StackLayout>
-                <StackLayout Grid.Row="2">
-                    <Button x:Name="studRegisterButton"
+                    <StackLayout Grid.Row="2">
+                        <Button x:Name="studRegisterButton"
                 CornerRadius="15"
                 Text="REGISTER"
                 Clicked="studRegisterButton_Clicked"
@@ -132,9 +131,9 @@
                 BackgroundColor="{StaticResource TheBluePart}"
                 HorizontalOptions="FillAndExpand"
                 Margin="10,30,10,0"/>
-                </StackLayout>
-                <StackLayout Grid.Row="5" VerticalOptions="End">
-                        <Label Text="Student Attendance Management System"
+                    </StackLayout>
+                </Grid>
+                <Label Text="Student Attendance Management System"
                Margin="10,5"
                FontAttributes="Italic"
                BackgroundColor="Transparent"
@@ -145,9 +144,7 @@
                HorizontalOptions="CenterAndExpand"
                VerticalTextAlignment="End"
                VerticalOptions="EndAndExpand" />
-                </StackLayout>
-            </Grid>
-        </StackLayout>
+            </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
