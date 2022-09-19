@@ -5,6 +5,7 @@
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              BackgroundColor="Transparent">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout xct:CornerRadiusEffect.CornerRadius="15,15,30,30" BackgroundColor="{StaticResource TheAlmostWhite}">
 
             <Grid>
@@ -147,5 +148,6 @@
                 </StackLayout>
             </Grid>
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

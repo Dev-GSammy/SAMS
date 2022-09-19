@@ -5,7 +5,7 @@
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="SAMS.LoginPage"
              BackgroundColor="Transparent">
-   
+    <ScrollView>
     <!--<Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
@@ -112,4 +112,5 @@
                VerticalOptions="EndAndExpand" />-->
         </StackLayout>
     </Grid>
+    </ScrollView>
 </ContentPage>

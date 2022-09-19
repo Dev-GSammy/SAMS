@@ -7,11 +7,11 @@
     <ContentPage.Content>
         <StackLayout xct:CornerRadiusEffect.CornerRadius="15,15,30,30" BackgroundColor="{StaticResource TheAlmostWhite}">
 
-            <Grid BackgroundColor="Black">
+            <Grid BackgroundColor="{StaticResource TheAlmostWhite}">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    
                 </Grid.RowDefinitions>
 
 
@@ -46,7 +46,7 @@
                     />
                     <Label TextColor="{StaticResource TheAlmostWhite}" Text="R" FontSize="Title" Margin="10" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End"/>
                 </StackLayout>
-                <StackLayout Grid.Row="1" BackgroundColor="Gray" VerticalOptions="FillAndExpand" HorizontalOptions="Fill" Margin="10">
+                <StackLayout Grid.Row="1"  VerticalOptions="FillAndExpand" HorizontalOptions="Fill" Margin="10">
                     <Button x:Name="MarkAttendancebtn"
                 CornerRadius="15"
                 Text="Mark Attendance"
@@ -113,7 +113,7 @@
                     
                 </StackLayout>
             </Grid>
-            <StackLayout BackgroundColor="Blue" HorizontalOptions="FillAndExpand" Margin="10" VerticalOptions="EndAndExpand">
+            <StackLayout HorizontalOptions="FillAndExpand" Margin="10" VerticalOptions="EndAndExpand">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Fill" Margin="5,5">
                     <Button x:Name="shareBtn" VerticalOptions="Start" CornerRadius="20" FontFamily="PoppinsMedium" Text="Share App" BackgroundColor="{StaticResource TheAlmostWhite}" Clicked="shareBtn_Clicked" Margin="0,0,50,0" FontSize="Small" TextColor="{StaticResource TheBluePart}"/>
                     <Button x:Name="HowToUseBtn" VerticalOptions="End" CornerRadius="20" FontFamily="PoppinsMedium" Text="How to use" Clicked="HowToUseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}" BackgroundColor="{StaticResource TheBluePart}"/>
