@@ -5,6 +5,7 @@
              x:Class="SAMS.Dashboard"
              BackgroundColor="Transparent">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout xct:CornerRadiusEffect.CornerRadius="15,15,30,30" BackgroundColor="{StaticResource TheAlmostWhite}">
 
             <Grid BackgroundColor="{StaticResource TheAlmostWhite}">
@@ -135,5 +136,6 @@
                VerticalTextAlignment="End"
                VerticalOptions="EndAndExpand" />
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

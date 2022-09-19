@@ -9,6 +9,7 @@
            HorizontalOptions="Center"
            VerticalOptions="Center"
            Color="Transparent">
+    <ScrollView>
     <Grid BackgroundColor="{StaticResource TheAlmostWhite}" xct:CornerRadiusEffect.CornerRadius="30" Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -64,4 +65,5 @@
                VerticalOptions="EndAndExpand" />
         </StackLayout>-->
     </Grid>
+    </ScrollView>
 </xct:Popup>
