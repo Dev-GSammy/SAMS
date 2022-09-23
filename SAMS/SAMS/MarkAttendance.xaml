@@ -43,7 +43,7 @@
                            FontAttributes="Bold"
                            CharacterSpacing="2"
                            TextColor="Black"
-                           HorizontalOptions="Center"
+                           HorizontalOptions="Start"
                            VerticalOptions="Center"
                            Grid.Row="0"/>
                     </Frame>
