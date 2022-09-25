@@ -36,13 +36,13 @@
                            Grid.Row="0"
                     />
                 <StackLayout Grid.Row="1">
-                    <Frame Margin="10,10,10,0" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
-                        <Label Text="Demo Student File: IFT 400l Student data"
+                    <Frame Margin="10,10,10,0" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="250" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <Label Text="Student data: 500L Information Technology Department"
                            FontSize="Medium"
                            FontFamily="Poppins"
                            FontAttributes="Bold"
                            CharacterSpacing="2"
-                           TextColor="Black"
+                           TextColor="LightGreen"
                            HorizontalOptions="Start"
                            VerticalOptions="Center"
                            Grid.Row="0"/>

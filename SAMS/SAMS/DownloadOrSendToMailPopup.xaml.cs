@@ -17,8 +17,8 @@ namespace SAMS
         public DownloadOrSendToMailPopup()
         {
             InitializeComponent();
+            OnDismissed(new LoginPage());
         }
-
         private void DownloadMarkedFilebtn_Clicked(object sender, EventArgs e)
         {
 

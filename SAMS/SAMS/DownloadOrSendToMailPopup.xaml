@@ -25,7 +25,7 @@
                Margin="5,45,0,0"
                BackgroundColor="Transparent"/>
         </StackLayout>
-        <StackLayout Grid.Row="1" VerticalOptions="Center">
+        <StackLayout Grid.Row="1" VerticalOptions="Center" Margin="10">
             <Button x:Name="DownloadMarkedFilebtn" 
                 Text="Download"
                 CornerRadius="10"
