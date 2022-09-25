@@ -16,5 +16,10 @@ namespace SAMS
         {
             InitializeComponent();
         }
+
+        private void GivePermissionbtn_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
