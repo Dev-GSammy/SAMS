@@ -17,15 +17,16 @@ namespace SAMS
         public DownloadOrSendToMailPopup()
         {
             InitializeComponent();
-            OnDismissed(new Dashboard());
+            
+            
         }
-        private void DownloadMarkedFilebtn_Clicked(object sender, EventArgs e)
+        async private void DownloadMarkedFilebtn_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new Dashboard());
         }
-        private void SendToMailbtn_Clicked(object sender, EventArgs e)
+        async private void SendToMailbtn_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new Dashboard());
         }
     }
 }
