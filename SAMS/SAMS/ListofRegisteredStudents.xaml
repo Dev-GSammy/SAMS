@@ -60,7 +60,7 @@
 
                 <Button x:Name="GivePermissionbtn"
                          CornerRadius="15"
-                         Text="Submit Attendance"
+                         Text="Give Permission"
                          TextColor="{StaticResource TheAlmostWhite}"
                          CharacterSpacing="2"
                          FontAttributes="Bold"

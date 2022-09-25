@@ -20,9 +20,9 @@ namespace SAMS
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
         }
 
-        private void ChooseCourseGivePermissionbtn_Clicked(object sender, EventArgs e)
+        async private void ChooseCourseGivePermissionbtn_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new ListofRegisteredStudents());
         }
     }
 }
