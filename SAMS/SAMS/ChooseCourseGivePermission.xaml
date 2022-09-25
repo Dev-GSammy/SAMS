@@ -12,9 +12,9 @@
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    
 
                 </Grid.RowDefinitions>
                 <Frame HeightRequest="150" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
@@ -25,7 +25,7 @@
                          HorizontalOptions="Fill">
                     </Image>
                 </Frame>
-                <Label Text="Choose Course"
+                <Label Text="Give Permission"
                            FontSize="Title"
                            FontFamily="Poppins"
                            FontAttributes="Bold"
@@ -36,7 +36,7 @@
                            Grid.Row="0"
                     />
                 <StackLayout Grid.Row="1">
-                    <Frame Margin="10,10,10,0" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                    <Frame Margin="15,10,15,0" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
                         <Label Text="Please choose the course you would like to give access to:"
                            FontSize="Medium"
                            FontFamily="Poppins"
@@ -48,12 +48,13 @@
                            Grid.Row="0"/>
                     </Frame>
                 </StackLayout>
-                <StackLayout Grid.Row="2" Grid.RowSpan="3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                    <Frame Margin="10,10,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
-                        <ListView>
-
-                        </ListView>
-                    </Frame>
+                <StackLayout Grid.Row="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="500" HorizontalOptions="FillAndExpand">
+                            <Label
+                                VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" Text="This part shows the list of course to give access to" TextColor="{StaticResource TheBluePart}"
+                                BackgroundColor="Transparent" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" 
+                                />
+                        </Frame>
                 </StackLayout>
             </Grid>
 
