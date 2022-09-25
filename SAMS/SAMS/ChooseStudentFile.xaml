@@ -12,9 +12,9 @@
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
                         <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="auto"/>
 
                     </Grid.RowDefinitions>
                     <Frame HeightRequest="150" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
@@ -47,15 +47,16 @@
                            Grid.Row="0"/>
                         </Frame>
                         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                            <Frame Margin="10,10,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
-                                <ListView>
-
-                                </ListView>
+                            <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="500" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                                <Label
+                                VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" Text="This part shows the list of csv files containing student data" TextColor="{StaticResource TheBluePart}"
+                                BackgroundColor="Transparent" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" 
+                                />
                             </Frame>
                         </StackLayout>
                     </StackLayout>
-                    <StackLayout Grid.Row="2" Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="10,0" Margin="0">
-                        <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Padding="0" Margin="0">
+                    <StackLayout Grid.Row="2" Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="10,0" Margin="10">
+                        <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="auto"/>
@@ -99,7 +100,7 @@
                      VerticalOptions="EndAndExpand"
                      BackgroundColor="{StaticResource TheBluePart}"
                      HorizontalOptions="FillAndExpand"
-                        Margin="10,30,10,0"/>
+                        Margin="10,10,10,0"/>
             <Label Text="Student Attendance Management System"
                Margin="10,5"
                FontAttributes="Italic"
