@@ -12,11 +12,11 @@
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
 
-                </Grid.RowDefinitions>
+
+                    </Grid.RowDefinitions>
                 <Frame HeightRequest="150" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
                     <Image 
                          x:Name="PatternImage"
@@ -36,24 +36,25 @@
                            Grid.Row="0"
                     />
                 <StackLayout Grid.Row="1">
-                    <Frame Margin="10,10,10,0" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="250" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Frame Margin="10,10,10,0" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="50" Padding="0" HorizontalOptions="FillAndExpand">
                         <Label Text="Student data: 500L Information Technology Department"
                            FontSize="Medium"
                            FontFamily="Poppins"
                            FontAttributes="Bold"
                            CharacterSpacing="2"
-                           TextColor="LightGreen"
+                           TextColor="MidnightBlue"
                            HorizontalOptions="Start"
                            VerticalOptions="Center"
                            Grid.Row="0"/>
                     </Frame>
                 </StackLayout>
-                <StackLayout Grid.Row="2" Grid.RowSpan="3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                    <Frame Margin="10,10,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
-                        <ListView>
-                            
-                        </ListView>
-                    </Frame>
+                <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand">
+                    <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="500"  Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <Label
+                                VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" Text="This part shows the details of the students" TextColor="{StaticResource TheBluePart}"
+                                BackgroundColor="Transparent" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" 
+                                />
+                        </Frame>
                 </StackLayout>
             </Grid>
 
