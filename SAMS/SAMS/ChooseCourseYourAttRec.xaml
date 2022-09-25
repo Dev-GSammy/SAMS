@@ -12,9 +12,9 @@
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    
 
                 </Grid.RowDefinitions>
                 <Frame HeightRequest="150" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
@@ -25,7 +25,7 @@
                          HorizontalOptions="Fill">
                     </Image>
                 </Frame>
-                <Label Text="Choose Course"
+                <Label Text="Your Attendance Record"
                            FontSize="Title"
                            FontFamily="Poppins"
                            FontAttributes="Bold"
@@ -48,8 +48,8 @@
                            Grid.Row="0"/>
                     </Frame>
                 </StackLayout>
-                <StackLayout Grid.Row="2" Grid.RowSpan="3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                    <Frame Margin="10,10,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                <StackLayout Grid.Row="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="500" HorizontalOptions="FillAndExpand">
                         <ListView>
 
                         </ListView>

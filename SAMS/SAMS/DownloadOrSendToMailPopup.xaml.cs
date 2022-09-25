@@ -20,13 +20,13 @@ namespace SAMS
             
             
         }
-        async private void DownloadMarkedFilebtn_Clicked(object sender, EventArgs e)
+        private void DownloadMarkedFilebtn_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Dashboard());
+            Dismiss(true);
         }
-        async private void SendToMailbtn_Clicked(object sender, EventArgs e)
+        private void SendToMailbtn_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Dashboard());
+            Dismiss(false);
         }
     }
 }

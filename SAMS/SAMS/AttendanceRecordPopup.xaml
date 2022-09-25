@@ -25,12 +25,12 @@
                BackgroundColor="Transparent"/>
         </StackLayout>
         <StackLayout Grid.Row="1" VerticalOptions="Center">
-            <Label Text="You have been present only 12 out of 30 times in ECN310 course. Please do better."
+            <Label Text="You have been present 12 out of 30 times in ECN310 course."
                FontSize="Large"
                TextColor="Black"
                FontAttributes="None"
                 HorizontalOptions="Center"
-               Margin="5"
+               Margin="10"
                BackgroundColor="Transparent"/>
             <ProgressBar
                 ProgressColor="{StaticResource TheAlmostWhite}"
@@ -38,7 +38,7 @@
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="Center"
                 x:Name="ProgressBarPopup"
-                Margin="5"
+                Margin="10"
                 />
            
         </StackLayout>

@@ -30,11 +30,11 @@ namespace SAMS
 
             if (result)
             {
-                //await Navigation.PushModalAsync(new StudorLecRegistration());
+                await Navigation.PushModalAsync(new Dashboard());
             }
             else
             {
-                //await Navigation.PushModalAsync(new RegAsLecturer());
+                await Navigation.PushModalAsync(new Dashboard());
             }
         }
     }
