@@ -21,7 +21,8 @@ namespace SAMS
 
         private void AddCoursebtn_Clicked(object sender, EventArgs e)
         {
-
+            DisplayAlert("Confirm Selection", "Are you sure you want to add these courses?", "Yes", "No");
+            DisplayAlert("Success", "Course(s) have been added", "Ok");
         }
     }
 }
