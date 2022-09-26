@@ -15,6 +15,9 @@ namespace SAMS
         public CheckReport()
         {
             InitializeComponent();
+            var assembly = typeof(MarkAttendance);
+
+            PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
         }
     }
 }
