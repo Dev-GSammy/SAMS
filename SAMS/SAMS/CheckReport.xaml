@@ -25,7 +25,7 @@
                          HorizontalOptions="Fill">
                         </Image>
                     </Frame>
-                    <Label Text="Mark Attendance"
+                    <Label Text="Check Report"
                            FontSize="Title"
                            FontFamily="Poppins"
                            FontAttributes="Bold"
@@ -37,7 +37,7 @@
                     />
                     <StackLayout Grid.Row="1">
                         <Frame Margin="10,10,10,0" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="50" Padding="0" HorizontalOptions="FillAndExpand">
-                            <Label Text="Student data: 500L Information Technology Department"
+                            <Label Text="Student List and Frequency of Presence"
                            FontSize="Medium"
                            FontFamily="Poppins"
                            FontAttributes="Bold"
@@ -49,23 +49,23 @@
                         </Frame>
                     </StackLayout>
                     <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand">
-                        <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="500"  Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="500"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                             <Label
-                                VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" Text="This part shows the details of the students" TextColor="{StaticResource TheBluePart}"
+                                VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" Text="This box shows the details of the students together with how frequent they have been in class" TextColor="{StaticResource TheBluePart}"
                                 BackgroundColor="Transparent" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" 
                                 />
                         </Frame>
                     </StackLayout>
                 </Grid>
 
-                <Button x:Name="SubmitAttendancebtn"
+                <Button x:Name="DownloadReportbtn"
                          CornerRadius="15"
-                         Text="Submit Attendance"
+                         Text="Download Report"
                          TextColor="{StaticResource TheAlmostWhite}"
                          CharacterSpacing="2"
                          FontAttributes="Bold"
                         FontSize="Large"
-                        Clicked="SubmitAttendancebtn_Clicked"
+                        Clicked="DownloadReportbtn_Clicked"
                      VerticalOptions="EndAndExpand"
                      BackgroundColor="{StaticResource TheBluePart}"
                      HorizontalOptions="FillAndExpand"
