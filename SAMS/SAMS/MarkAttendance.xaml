@@ -42,7 +42,7 @@
                            FontFamily="Poppins"
                            FontAttributes="Bold"
                            CharacterSpacing="2"
-                           TextColor="MidnightBlue"
+                           TextColor="Black"
                            HorizontalOptions="Start"
                            VerticalOptions="Center"
                            Grid.Row="0"/>

@@ -25,8 +25,8 @@
                Margin="5,45,0,0"
                BackgroundColor="Transparent"/>
         </StackLayout>
-        <StackLayout Grid.Row="1" VerticalOptions="Center" Margin="10">
-            <Button x:Name="DownloadMarkedFilebtn" 
+            <StackLayout Grid.Row="1" VerticalOptions="Center" Margin="10">
+                <Button x:Name="DownloadMarkedFilebtn" 
                 Text="Download"
                 CornerRadius="10"
                 CharacterSpacing="2"
@@ -38,7 +38,7 @@
                 Margin="5"
                 Clicked="DownloadMarkedFilebtn_Clicked"
                 />
-            <Button x:Name="SendToMailbtn" 
+                <Button x:Name="SendToMailbtn" 
                     CornerRadius="10"
                 CharacterSpacing="2"
                 Text="Send to Mail"
@@ -50,20 +50,7 @@
                 Margin="5"
                 Clicked="SendToMailbtn_Clicked"
                 />
-        </StackLayout>
-        <!--<StackLayout Grid.Row="2" VerticalOptions="End">
-            <Label Text="Student Attendance Management System"
-               Margin="10,5"
-               FontAttributes="Italic"
-                   FontFamily="PoppinsRegular"
-               BackgroundColor="{StaticResource TheAlmostWhite}"
-               TextColor="{StaticResource TheBluePart}"
-               FontSize="Small"
-               HorizontalTextAlignment="Center"
-               HorizontalOptions="CenterAndExpand"
-               VerticalTextAlignment="End"
-               VerticalOptions="EndAndExpand" />
-        </StackLayout>-->
-    </Grid>
+            </StackLayout>
+        </Grid>
     </ScrollView>
 </xct:Popup>
