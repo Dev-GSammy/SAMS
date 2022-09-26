@@ -45,7 +45,7 @@
                            VerticalOptions="Center"
                            Grid.Row="0"/>
                         </Frame>
-                        <Frame Margin="10,10,10,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
+                        <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="50" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
                             <Entry x:Name="AddCourseEntry"
                         FontSize="Body"
                         Margin="10,5"
@@ -55,8 +55,8 @@
                         Placeholder="Enter course"/>
                         </Frame>
                     </StackLayout>
-                    <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand">
-                        <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="250"  Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheGrayPart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="250"  Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
                             <Label
                                 VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" Text="This box displays tags that show the courses chosen" TextColor="{StaticResource TheBluePart}"
                                 BackgroundColor="Transparent" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" 
