@@ -31,6 +31,8 @@
     <None Remove="Assets\Icons\battery.png" />
     <None Remove="Assets\Icons\DashboardPopDown2x.png" />
     <None Remove="Assets\Icons\DashboardPopDown3x.png" />
+    <None Remove="Assets\Icons\DashboardPopup0.75x.png" />
+    <None Remove="Assets\Icons\DashboardPopup1x.png" />
     <None Remove="Assets\Icons\DashboardPopup2x.png" />
     <None Remove="Assets\Icons\DashboardPopup3x.png" />
     <None Remove="Assets\Icons\InternetIcon.png" />
@@ -77,6 +79,8 @@
     <EmbeddedResource Include="Assets\Icons\battery.png" />
     <EmbeddedResource Include="Assets\Icons\DashboardPopDown2x.png" />
     <EmbeddedResource Include="Assets\Icons\DashboardPopDown3x.png" />
+    <EmbeddedResource Include="Assets\Icons\DashboardPopup0.75x.png" />
+    <EmbeddedResource Include="Assets\Icons\DashboardPopup1x.png" />
     <EmbeddedResource Include="Assets\Icons\DashboardPopup2x.png" />
     <EmbeddedResource Include="Assets\Icons\DashboardPopup3x.png" />
     <EmbeddedResource Include="Assets\Icons\InternetIcon.png" />
