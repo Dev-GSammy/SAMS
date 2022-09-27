@@ -6,13 +6,14 @@
              BackgroundColor="Transparent">
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout xct:CornerRadiusEffect.CornerRadius="15,15,30,30" BackgroundColor="{StaticResource TheAlmostWhite}">
+        <StackLayout xct:CornerRadiusEffect.CornerRadius="15,15,30,30" BackgroundColor="{StaticResource TheAlmostWhite}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
 
-            <Grid BackgroundColor="{StaticResource TheAlmostWhite}">
+            <Grid BackgroundColor="{StaticResource TheAlmostWhite}" VerticalOptions="FillAndExpand">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
-                     <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                      <RowDefinition Height="auto"/>
 
                     </Grid.RowDefinitions>
 
@@ -25,7 +26,7 @@
                          HorizontalOptions="Fill">
                     </Image>
                 </Frame>
-                <StackLayout Grid.Row="0" HeightRequest="150" Orientation="Horizontal" HorizontalOptions="Fill" VerticalOptions="Fill" BackgroundColor="Transparent">
+                <StackLayout Grid.Row="0" HeightRequest="150" Orientation="Horizontal" HorizontalOptions="Fill" VerticalOptions="Fill" BackgroundColor="Blue">
                     <Grid HorizontalOptions="Fill" VerticalOptions="Fill">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="auto"/>
@@ -48,7 +49,7 @@
                     />
                     <Label TextColor="{StaticResource TheAlmostWhite}" Text="R" FontSize="Title" Margin="10" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End"/>
                 </StackLayout>
-                <StackLayout Grid.Row="1"  VerticalOptions="FillAndExpand" HorizontalOptions="Fill" Margin="10">
+                <StackLayout Grid.Row="1"  VerticalOptions="Center" HorizontalOptions="Fill" Margin="10" BackgroundColor="Transparent">
                     <Button x:Name="MarkAttendancebtn"
                 CornerRadius="15"
                 Text="Mark Attendance"
@@ -114,7 +115,7 @@
                 Margin="10,5"/>
                     
                 </StackLayout>
-                    <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand" Margin="10" VerticalOptions="End">
+                    <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand" Margin="10" VerticalOptions="End" BackgroundColor="Transparent">
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Fill" Margin="5,5">
                             <Button x:Name="shareBtn" VerticalOptions="Start" CornerRadius="20" FontFamily="PoppinsMedium" Text="Share App" BackgroundColor="{StaticResource TheAlmostWhite}" Clicked="shareBtn_Clicked" Margin="0,0,50,0" FontSize="Small" TextColor="{StaticResource TheBluePart}"/>
                             <Button x:Name="HowToUseBtn" VerticalOptions="End" CornerRadius="20" FontFamily="PoppinsMedium" Text="How to use" Clicked="HowToUseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}" BackgroundColor="{StaticResource TheBluePart}"/>
@@ -124,9 +125,7 @@
                             <Button x:Name="AdvertiseBtn" CornerRadius="20" FontFamily="PoppinsMedium" Text="Advertise" Clicked="AdvertiseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}" BackgroundColor="{StaticResource TheBluePart}"/>
                         </StackLayout>
                     </StackLayout>
-                </Grid>
-            
-            <Label Grid.Row="3" Text="Student Attendance Management System"
+                    <Label Grid.Row="3" Text="Student Attendance Management System"
                Margin="10,5"
                FontAttributes="Italic"
                FontFamily="PoppinsRegular"
@@ -137,6 +136,9 @@
                HorizontalOptions="CenterAndExpand"
                VerticalTextAlignment="End"
                VerticalOptions="EndAndExpand" />
+                </Grid>
+            
+          
         </StackLayout>
         </ScrollView>
     </ContentPage.Content>
