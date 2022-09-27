@@ -224,6 +224,7 @@
                         <ImageButton x:Name="DashboardPopupimgbtn" 
                             Clicked="DashboardPopupimgbtn_Clicked"
                             HorizontalOptions="Start"
+                                     BackgroundColor="Transparent"
                             VerticalOptions="Center"
                                      Aspect="AspectFit"
                                      />
