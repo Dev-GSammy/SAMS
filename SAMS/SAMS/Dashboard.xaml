@@ -12,8 +12,9 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="auto"/>
-                      <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    
 
                     </Grid.RowDefinitions>
 
@@ -49,7 +50,7 @@
                     />
                     <Label TextColor="{StaticResource TheAlmostWhite}" Text="R" FontSize="Title" Margin="10" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End"/>
                 </StackLayout>
-                <StackLayout Grid.Row="1"  VerticalOptions="FillAndExpand" HorizontalOptions="Fill" Margin="10" BackgroundColor="Transparent">
+                <StackLayout Grid.Row="1"  VerticalOptions="Center" HorizontalOptions="Fill" Margin="10" BackgroundColor="Transparent">
                         <Grid Margin="5">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*"/>
@@ -218,9 +219,11 @@
                 BackgroundColor="{StaticResource TheBluePart}"
                 HorizontalOptions="FillAndExpand"
                 Margin="10,5"/>-->
-                    
                 </StackLayout>
-                    <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand" Margin="10" VerticalOptions="End" BackgroundColor="Transparent">
+                    <StackLayout Grid.Row="2" HeightRequest="50" BackgroundColor="Blue" Padding="0" Margin="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        
+                    </StackLayout>
+                    <!--"<StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand" Margin="10" VerticalOptions="End" BackgroundColor="Transparent">
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Fill" Margin="5,5">
                             <Button x:Name="shareBtn" VerticalOptions="Start" CornerRadius="20" FontFamily="PoppinsMedium" Text="Share App" BackgroundColor="{StaticResource TheAlmostWhite}" Clicked="shareBtn_Clicked" Margin="0,0,50,0" FontSize="Small" TextColor="{StaticResource TheBluePart}"/>
                             <Button x:Name="HowToUseBtn" VerticalOptions="End" CornerRadius="20" FontFamily="PoppinsMedium" Text="How to use" Clicked="HowToUseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}" BackgroundColor="{StaticResource TheBluePart}"/>
@@ -229,7 +232,7 @@
                             <Button x:Name="AppInfoBtn" CornerRadius="20" FontFamily="PoppinsMedium" Text="App Info" Clicked="AppInfoBtn_Clicked" BackgroundColor="{StaticResource TheBluePart}" Margin="0,0,50,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}"/>
                             <Button x:Name="AdvertiseBtn" CornerRadius="20" FontFamily="PoppinsMedium" Text="Advertise" Clicked="AdvertiseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}" BackgroundColor="{StaticResource TheBluePart}"/>
                         </StackLayout>
-                    </StackLayout>
+                    </StackLayout>-->
                     <Label Grid.Row="3" Text="Student Attendance Management System"
                Margin="10,5"
                FontAttributes="Italic"
