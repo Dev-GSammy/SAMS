@@ -12,8 +12,9 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
-                    
-                </Grid.RowDefinitions>
+                     <RowDefinition Height="auto"/>
+
+                    </Grid.RowDefinitions>
 
 
                 <Frame HeightRequest="200" Grid.Row="0" Padding="0" Margin="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" BackgroundColor="{StaticResource TheBluePart}">
@@ -113,17 +114,18 @@
                 Margin="10,5"/>
                     
                 </StackLayout>
-            </Grid>
-            <StackLayout HorizontalOptions="FillAndExpand" Margin="10" VerticalOptions="EndAndExpand">
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Fill" Margin="5,5">
-                    <Button x:Name="shareBtn" VerticalOptions="Start" CornerRadius="20" FontFamily="PoppinsMedium" Text="Share App" BackgroundColor="{StaticResource TheAlmostWhite}" Clicked="shareBtn_Clicked" Margin="0,0,50,0" FontSize="Small" TextColor="{StaticResource TheBluePart}"/>
-                    <Button x:Name="HowToUseBtn" VerticalOptions="End" CornerRadius="20" FontFamily="PoppinsMedium" Text="How to use" Clicked="HowToUseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}" BackgroundColor="{StaticResource TheBluePart}"/>
-                </StackLayout>
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="FillAndExpand" Margin="5,5">
-                    <Button x:Name="AppInfoBtn" CornerRadius="20" FontFamily="PoppinsMedium" Text="App Info" Clicked="AppInfoBtn_Clicked" BackgroundColor="{StaticResource TheBluePart}" Margin="0,0,50,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}"/>
-                    <Button x:Name="AdvertiseBtn" CornerRadius="20" FontFamily="PoppinsMedium" Text="Advertise" Clicked="AdvertiseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}" BackgroundColor="{StaticResource TheBluePart}"/>
-                </StackLayout>
-            </StackLayout>
+                    <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand" Margin="10" VerticalOptions="End">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Fill" Margin="5,5">
+                            <Button x:Name="shareBtn" VerticalOptions="Start" CornerRadius="20" FontFamily="PoppinsMedium" Text="Share App" BackgroundColor="{StaticResource TheAlmostWhite}" Clicked="shareBtn_Clicked" Margin="0,0,50,0" FontSize="Small" TextColor="{StaticResource TheBluePart}"/>
+                            <Button x:Name="HowToUseBtn" VerticalOptions="End" CornerRadius="20" FontFamily="PoppinsMedium" Text="How to use" Clicked="HowToUseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}" BackgroundColor="{StaticResource TheBluePart}"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="FillAndExpand" Margin="5,5">
+                            <Button x:Name="AppInfoBtn" CornerRadius="20" FontFamily="PoppinsMedium" Text="App Info" Clicked="AppInfoBtn_Clicked" BackgroundColor="{StaticResource TheBluePart}" Margin="0,0,50,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}"/>
+                            <Button x:Name="AdvertiseBtn" CornerRadius="20" FontFamily="PoppinsMedium" Text="Advertise" Clicked="AdvertiseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheAlmostWhite}" BackgroundColor="{StaticResource TheBluePart}"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+            
             <Label Grid.Row="3" Text="Student Attendance Management System"
                Margin="10,5"
                FontAttributes="Italic"
