@@ -19,6 +19,7 @@ namespace SAMS
 
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
             DashboardImage.Source = ImageSource.FromResource("SAMS.Assets.Images.DashboardImage3x.png", assembly);
+            DashboardPopupimgbtn.Source = ImageSource.FromResource("SAMS.Assets.Icons.DashboardPopup2x.png",assembly);
         }
         async private void MarkAttendancebtn_Clicked(object sender, EventArgs e)
         {
@@ -65,6 +66,11 @@ namespace SAMS
         async private void AdvertiseBtn_Clicked(object sender, EventArgs e)
         {
             
+        }
+
+        async private void DashboardPopupimgbtn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new AddCourse());
         }
     }
 }

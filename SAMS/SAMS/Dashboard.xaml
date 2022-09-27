@@ -220,8 +220,13 @@
                 HorizontalOptions="FillAndExpand"
                 Margin="10,5"/>-->
                 </StackLayout>
-                    <StackLayout Grid.Row="2" HeightRequest="50" BackgroundColor="Blue" Padding="0" Margin="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                        
+                    <StackLayout Grid.Row="2" HeightRequest="50" BackgroundColor="Transparent" Padding="0" Margin="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <ImageButton x:Name="DashboardPopupimgbtn" 
+                            Clicked="DashboardPopupimgbtn_Clicked"
+                            HorizontalOptions="Start"
+                            VerticalOptions="Center"
+                                     Aspect="AspectFit"
+                                     />
                     </StackLayout>
                     <!--"<StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand" Margin="10" VerticalOptions="End" BackgroundColor="Transparent">
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Fill" Margin="5,5">
