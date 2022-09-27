@@ -49,28 +49,19 @@
                     />
                     <Label TextColor="{StaticResource TheAlmostWhite}" Text="R" FontSize="Title" Margin="10" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End"/>
                 </StackLayout>
-                <StackLayout Grid.Row="1"  VerticalOptions="Center" HorizontalOptions="Fill" Margin="10" BackgroundColor="Transparent">
-                        <Grid Margin="10">
+                <StackLayout Grid.Row="1"  VerticalOptions="FillAndExpand" HorizontalOptions="Fill" Margin="10" BackgroundColor="Transparent">
+                        <Grid Margin="5">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*"/>
                                 <RowDefinition Height="*"/>
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
-                            <Button Grid.Row="0" x:Name="MarkAttendancebtn"
-                            CornerRadius="15"
-                            Text="Mark Attendance"
-                             TextColor="{StaticResource TheAlmostWhite}"
-                            CharacterSpacing="2"
-                             Clicked="MarkAttendancebtn_Clicked"
-                            FontAttributes="Bold"
-                             FontSize="Large"
-                             VerticalOptions="FillAndExpand"
-                            BackgroundColor="{StaticResource TheBluePart}"
-                            HorizontalOptions="FillAndExpand"
-                            Margin="10,5"/>
-                            
-                            
-                            
+                            <Frame Grid.Row="0" Margin="10" BorderColor="Transparent" HasShadow="True" xct:ShadowEffect.Color="DarkBlue" BackgroundColor="{StaticResource TheBluePart}" HeightRequest="100" CornerRadius="10" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                                
+                            </Frame>
+
+
+
                         </Grid>
                  <!--<Button x:Name="MarkAttendancebtn"
                 CornerRadius="15"
