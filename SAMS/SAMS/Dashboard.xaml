@@ -57,9 +57,101 @@
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
                             <Frame Grid.Row="0" Margin="10" BorderColor="Transparent" HasShadow="True" xct:ShadowEffect.Color="DarkBlue" BackgroundColor="{StaticResource TheBluePart}" HeightRequest="100" CornerRadius="10" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
-                                
+                                <Button x:Name="MarkAttendancebtn"
+                                    CornerRadius="15"
+                                    Text="Mark Attendance"
+                                    TextColor="{StaticResource TheAlmostWhite}"
+                                     CharacterSpacing="2"
+                                    Padding="0"
+                                    Clicked="MarkAttendancebtn_Clicked"
+                                     FontAttributes="Bold"
+                                 FontSize="Large"
+                                    VerticalOptions="FillAndExpand"
+                                 BackgroundColor="{StaticResource TheBluePart}"
+                                 HorizontalOptions="FillAndExpand"/>
                             </Frame>
-
+                            
+                            
+                            
+                            
+                            
+                            <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                <Grid HorizontalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Frame Grid.Column="0" Margin="10" HasShadow="True" xct:ShadowEffect.Color="DarkBlue" BackgroundColor="{StaticResource TheBluePart}" HeightRequest="100" CornerRadius="10" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                                        <Button x:Name="AddCoursebtn"
+                                        CornerRadius="15"
+                                        Text="Add        Course"
+                                        TextColor="{StaticResource TheAlmostWhite}"
+                                        CharacterSpacing="2"
+                                        TextTransform="None"
+                                        Clicked="AddCoursebtn_Clicked"
+                                        FontAttributes="Bold"
+                                        FontSize="Large"
+                                        VerticalOptions="FillAndExpand"
+                                        BackgroundColor="{StaticResource TheBluePart}"
+                                        HorizontalOptions="FillAndExpand"/>
+                                    </Frame>
+                                    <Frame Grid.Column="1" Margin="10" HasShadow="True" xct:ShadowEffect.Color="DarkBlue" BackgroundColor="{StaticResource TheBluePart}" HeightRequest="100" CornerRadius="10" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                                        <Button x:Name="YourAttendanceRecordbtn"
+                                        CornerRadius="15"
+                                         TextTransform="None"
+                                         Text="Your Attendance Records"
+                                        TextColor="{StaticResource TheAlmostWhite}"
+                                        CharacterSpacing="2"
+                                        Clicked="YourAttendanceRecordbtn_Clicked"
+                                        FontAttributes="Bold"
+                                        FontSize="Large"
+                                        VerticalOptions="FillAndExpand"
+                                        BackgroundColor="{StaticResource TheBluePart}"
+                                        HorizontalOptions="FillAndExpand"/>
+                                    </Frame>
+                                </Grid>
+                            </StackLayout>
+                            
+                            
+                            
+                            
+                            
+                            <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                <Grid HorizontalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Frame Grid.Column="0" Margin="10" HasShadow="True" xct:ShadowEffect.Color="DarkBlue" BackgroundColor="{StaticResource TheBluePart}" HeightRequest="100" CornerRadius="10" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                                        <Button x:Name="GivePermissionbtn"
+                                        CornerRadius="15"
+                                        Text="Give Permission"
+                                        TextColor="{StaticResource TheAlmostWhite}"
+                                        CharacterSpacing="2"
+                                        TextTransform="None"
+                                        Clicked="GivePermissionbtn_Clicked"
+                                         FontAttributes="Bold"
+                                        FontSize="Large"
+                                        VerticalOptions="FillAndExpand"
+                                        BackgroundColor="{StaticResource TheBluePart}"
+                                        HorizontalOptions="FillAndExpand"/>
+                                    </Frame>
+                                    <Frame Grid.Column="1" Margin="10" HasShadow="True" xct:ShadowEffect.Color="DarkBlue" BackgroundColor="{StaticResource TheBluePart}" HeightRequest="100" CornerRadius="10" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                                        <Button x:Name="CheckReportbtn"
+                                         CornerRadius="15"
+                                        Text="Check Report"
+                                        TextTransform="None"
+                                        TextColor="{StaticResource TheAlmostWhite}"
+                                        CharacterSpacing="2"
+                                        Clicked="CheckReportbtn_Clicked"
+                                        FontAttributes="Bold"
+                                        FontSize="Large"
+                                        VerticalOptions="FillAndExpand"
+                                        BackgroundColor="{StaticResource TheBluePart}"
+                                        HorizontalOptions="FillAndExpand"/>
+                                    </Frame>
+                                </Grid>
+                            </StackLayout>
 
 
                         </Grid>
