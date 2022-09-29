@@ -50,26 +50,6 @@ namespace SAMS
         /// <param name="sender"></param>
         /// <param name="e"></param>
 
-        async private void shareBtn_Clicked(object sender, EventArgs e)
-        {
-            
-        }
-
-        async private void HowToUseBtn_Clicked(object sender, EventArgs e)
-        {
-            
-        }
-
-        async private void AppInfoBtn_Clicked(object sender, EventArgs e)
-        {
-            
-        }
-
-        async private void AdvertiseBtn_Clicked(object sender, EventArgs e)
-        {
-            
-        }
-
         async private void DashboardPopupimgbtn_Clicked(object sender, EventArgs e)
         {
             await App.Current.MainPage.Navigation.ShowPopupAsync(new DashboardMisc());
