@@ -30,14 +30,7 @@
             </Grid>
         </StackLayout>
         <StackLayout Grid.Column="1" VerticalOptions="CenterAndExpand" Margin="0" BackgroundColor="Transparent">
-            <!--<Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-            </Grid>-->
-            <ImageButton Grid.Row="1" VerticalOptions="Center" x:Name="DashboardPopDownImgBtn"
+            <ImageButton VerticalOptions="Center" x:Name="DashboardPopDownImgBtn"
                 Clicked="DashboardPopDownImgBtn_Clicked"
                 HorizontalOptions="End"
                 Aspect="AspectFit"

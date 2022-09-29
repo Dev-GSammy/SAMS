@@ -15,6 +15,9 @@ namespace SAMS
         public ListofRegisteredStudents()
         {
             InitializeComponent();
+            var assembly = typeof(ChooseCourseGivePermission);
+
+            PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
         }
 
         private void GivePermissionbtn_Clicked(object sender, EventArgs e)
