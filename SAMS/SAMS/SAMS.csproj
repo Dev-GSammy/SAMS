@@ -37,6 +37,9 @@
     <None Remove="Assets\Icons\DashboardPopup3x.png" />
     <None Remove="Assets\Icons\InternetIcon.png" />
     <None Remove="Assets\Icons\LockIcon.png" />
+    <None Remove="Assets\Icons\PopLeft1.5x.png" />
+    <None Remove="Assets\Icons\PopLeft1x.png" />
+    <None Remove="Assets\Icons\PopLeft2x.png" />
     <None Remove="Assets\Icons\ShareIcon.png" />
     <None Remove="Assets\Icons\Usercheck.png" />
     <None Remove="Assets\Icons\WifiIcon.png" />
@@ -85,6 +88,9 @@
     <EmbeddedResource Include="Assets\Icons\DashboardPopup3x.png" />
     <EmbeddedResource Include="Assets\Icons\InternetIcon.png" />
     <EmbeddedResource Include="Assets\Icons\LockIcon.png" />
+    <EmbeddedResource Include="Assets\Icons\PopLeft1.5x.png" />
+    <EmbeddedResource Include="Assets\Icons\PopLeft1x.png" />
+    <EmbeddedResource Include="Assets\Icons\PopLeft2x.png" />
     <EmbeddedResource Include="Assets\Icons\ShareIcon.png" />
     <EmbeddedResource Include="Assets\Icons\Usercheck.png" />
     <EmbeddedResource Include="Assets\Icons\WifiIcon.png" />
