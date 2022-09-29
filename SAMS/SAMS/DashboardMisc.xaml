@@ -35,6 +35,7 @@
                 HorizontalOptions="End"
                 VerticalOptions="Center"
                 Aspect="AspectFit"
+                BackgroundColor="Transparent"
                 />
         </StackLayout>
     </Grid>

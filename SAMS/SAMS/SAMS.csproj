@@ -32,6 +32,7 @@
     <None Remove="Assets\Icons\DashboardPopDown2x.png" />
     <None Remove="Assets\Icons\DashboardPopDown3x.png" />
     <None Remove="Assets\Icons\DashboardPopup0.75x.png" />
+    <None Remove="Assets\Icons\DashboardPopup1.5x.png" />
     <None Remove="Assets\Icons\DashboardPopup1x.png" />
     <None Remove="Assets\Icons\DashboardPopup2x.png" />
     <None Remove="Assets\Icons\DashboardPopup3x.png" />
@@ -83,6 +84,7 @@
     <EmbeddedResource Include="Assets\Icons\DashboardPopDown2x.png" />
     <EmbeddedResource Include="Assets\Icons\DashboardPopDown3x.png" />
     <EmbeddedResource Include="Assets\Icons\DashboardPopup0.75x.png" />
+    <EmbeddedResource Include="Assets\Icons\DashboardPopup1.5x.png" />
     <EmbeddedResource Include="Assets\Icons\DashboardPopup1x.png" />
     <EmbeddedResource Include="Assets\Icons\DashboardPopup2x.png" />
     <EmbeddedResource Include="Assets\Icons\DashboardPopup3x.png" />
