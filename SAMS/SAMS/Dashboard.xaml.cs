@@ -21,7 +21,7 @@ namespace SAMS
 
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
             DashboardImage.Source = ImageSource.FromResource("SAMS.Assets.Images.DashboardImage3x.png", assembly);
-            DashboardPopupimgbtn.Source = ImageSource.FromResource("SAMS.Assets.Icons.DashboardPopup1x.png",assembly);
+            DashboardPopupimgbtn.Source = ImageSource.FromResource("SAMS.Assets.Icons.DashboardPopup1.5x.png",assembly);
         }
         async private void MarkAttendancebtn_Clicked(object sender, EventArgs e)
         {
