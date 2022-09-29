@@ -1,18 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SAMS.DashboardMisc"
-             HeightRequest="300"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
-             BackgroundColor="{StaticResource TheAlmostWhite}"
-             >
-    <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
-                <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            </StackLayout>
-        </ScrollView>
-    </ContentPage.Content>
-</ContentPage>
+            x:Class="SAMS.DashboardMisc"
+            x:TypeArguments="x:Boolean"
+            IsLightDismissEnabled="True"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="End"
+           Color="Black">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Welcome to this page"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   TextColor="White"
+                   />
+        </StackLayout>
+    </ScrollView>
+
+</xct:Popup>

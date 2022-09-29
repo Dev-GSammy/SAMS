@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.CommunityToolkit.UI.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
+using Xamarin.CommunityToolkit.Extensions;
+using System.ComponentModel;
+using Xamarin.CommunityToolkit;
 namespace SAMS
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -70,7 +72,19 @@ namespace SAMS
 
         async private void DashboardPopupimgbtn_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new AddCourse());
+            await App.Current.MainPage.Navigation.ShowPopupAsync(new DashboardMisc());
+
+            /*
+            var result = await App.Current.MainPage.Navigation.ShowPopupAsync(new StudorLecRegPopup());
+
+            if (result)
+            {
+                await Navigation.PushModalAsync(new StudorLecRegistration());
+            }
+            else
+            {
+                await Navigation.PushModalAsync(new RegAsLecturer());
+            }*/
         }
     }
 }
