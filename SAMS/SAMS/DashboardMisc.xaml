@@ -5,17 +5,17 @@
             x:Class="SAMS.DashboardMisc"
              Size="300,300"
             x:TypeArguments="x:Boolean"
-            IsLightDismissEnabled="True"
+            IsLightDismissEnabled="False"
            HorizontalOptions="Start"
            VerticalOptions="End"
            xct:CornerRadiusEffect.CornerRadius="30"
            Color="Transparent">
-    <Grid xct:CornerRadiusEffect.CornerRadius="0,30,0,0" BackgroundColor="{StaticResource TheAlmostWhite}" Margin="10">
+    <Grid xct:CornerRadiusEffect.CornerRadius="0,30,0,0" Padding="0" BackgroundColor="{StaticResource TheAlmostWhite}" Margin="10" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
-        <StackLayout Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Transparent" Margin="10">
+        <StackLayout Grid.Column="0" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Transparent" Margin="10">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
@@ -29,11 +29,17 @@
                 <Button Grid.Row="3" x:Name="AdvertiseBtn" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" FontFamily="PoppinsMedium" Text="Advertise" Clicked="AdvertiseBtn_Clicked"  Margin="10,0,0,0" FontSize="Small" TextColor="{StaticResource TheBluePart}" BackgroundColor="Transparent"/>
             </Grid>
         </StackLayout>
-        <StackLayout Grid.Column="1" VerticalOptions="FillAndExpand" Margin="0" BackgroundColor="Transparent">
-            <ImageButton x:Name="DashboardPopDownImgBtn"
+        <StackLayout Grid.Column="1" VerticalOptions="CenterAndExpand" Margin="0" BackgroundColor="Transparent">
+            <!--<Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+            </Grid>-->
+            <ImageButton Grid.Row="1" VerticalOptions="Center" x:Name="DashboardPopDownImgBtn"
                 Clicked="DashboardPopDownImgBtn_Clicked"
                 HorizontalOptions="End"
-                VerticalOptions="Center"
                 Aspect="AspectFit"
                 BackgroundColor="Transparent"
                 />
