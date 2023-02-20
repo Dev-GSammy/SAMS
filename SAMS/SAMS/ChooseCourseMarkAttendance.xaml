@@ -49,10 +49,14 @@
                     </StackLayout>
                     <StackLayout Grid.Row="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                     <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="500" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                            <ListView x:Name="ChooseCourseMarkAttlv">
+                                
+                            </ListView>
+                           <!--
                             <Label
                                 VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" Text="This part shows the list of courses to choose from" TextColor="{StaticResource TheBluePart}"
                                 BackgroundColor="Transparent" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" 
-                                />
+                                />--!>
                         </Frame>
                 </StackLayout>
             </Grid>
