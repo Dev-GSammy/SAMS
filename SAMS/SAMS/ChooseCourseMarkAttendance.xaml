@@ -52,11 +52,7 @@
                             <ListView x:Name="ChooseCourseMarkAttlv">
                                 
                             </ListView>
-                           <!--
-                            <Label
-                                VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" Text="This part shows the list of courses to choose from" TextColor="{StaticResource TheBluePart}"
-                                BackgroundColor="Transparent" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" 
-                                />--!>
+                          
                         </Frame>
                 </StackLayout>
             </Grid>

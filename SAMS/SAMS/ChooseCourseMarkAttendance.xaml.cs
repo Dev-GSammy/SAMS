@@ -18,7 +18,7 @@ namespace SAMS
             var assembly = typeof(ChooseCourseMarkAttendance);
 
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
-            
+            ChooseCourseMarkAttlv.ItemsSource = new string[] { "Samuel", "Stanlee", "Ihesie", "Adeyemo Itunu", "Adebeth", "TemiTope", "Bolanle", "And so on" };
             
         }
 
