@@ -21,10 +21,13 @@ namespace SAMS
             var assembly = typeof(MarkAttendance);
 
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
+            ChooseListofStudentslv.ItemsSource = new string[] {"Daramola Ademola    IFT/17/2400    M", "Adebayo Omolade      IFT/16/2450   M", "Akinola Taiwo     IFT/16/2000    F" };
         }
 
         async private void SubmitAttendancebtn_Clicked(object sender, EventArgs e)
         {
+            await DisplayAlert("SelectedMessage", Convert.ToString(ChooseListofStudentslv.SelectedItem), "Okay");
+            Console.WriteLine("Selected Item successfully printed");
             await DisplayAlert("Success","Attendance submission successful","Okay");
             var result = await App.Current.MainPage.Navigation.ShowPopupAsync(new DownloadOrSendToMailPopup());
 

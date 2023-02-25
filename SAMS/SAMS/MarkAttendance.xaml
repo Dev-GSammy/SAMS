@@ -50,8 +50,8 @@
                 </StackLayout>
                 <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand">
                     <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="500"  Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                            <ListView x:Name="ChooseListofStudentslv">
-
+                            <ListView x:Name="ChooseListofStudentslv" BackgroundColor="Transparent" SeparatorColor="{StaticResource TheBluePart}">
+                                
                             </ListView>
                         </Frame>
                 </StackLayout>

@@ -19,6 +19,7 @@ namespace SAMS
 
             PatternImage.Source = ImageSource.FromResource("SAMS.Assets.Images.WavyPattern.png", assembly);
             //UploadStudentCSVbtn.ImageSource = ImageSource.FromResource("SAMS.Assets.Icons.LockIcon.png", assembly);
+            ChooseStudentFilelv.ItemsSource = new string[] { "500L IFT", "200L CSC", "300L SEN", "500L Special Students", "300L Carry Over Students" };
         }
 
         private void UploadStudentCSVbtn_Clicked(object sender, EventArgs e)
