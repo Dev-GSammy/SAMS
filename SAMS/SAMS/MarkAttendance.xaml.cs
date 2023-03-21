@@ -33,7 +33,6 @@ namespace SAMS
 
             if (result)
             {
-                
                 await Navigation.PushModalAsync(new Dashboard());
             }
             else
