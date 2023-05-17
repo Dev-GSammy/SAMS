@@ -57,10 +57,9 @@
                     </StackLayout>
                     <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                         <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheGrayPart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="250"  Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
-                            <Label
-                                VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" Text="This box displays tags that show the courses chosen" TextColor="{StaticResource TheBluePart}"
-                                BackgroundColor="Transparent" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" 
-                                />
+                            <ListView x:Name="Addcourselv" BackgroundColor="Transparent" SeparatorColor="{StaticResource TheBluePart}">
+
+                            </ListView>
                         </Frame>
                     </StackLayout>
                 </Grid>

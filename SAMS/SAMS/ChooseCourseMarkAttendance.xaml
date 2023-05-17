@@ -49,7 +49,7 @@
                     </StackLayout>
                     <StackLayout Grid.Row="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                     <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="500" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                            <ListView x:Name="ChooseCourseMarkAttlv">
+                            <ListView x:Name="ChooseCourseMarkAttlv" BackgroundColor="Transparent" SeparatorColor="{StaticResource TheBluePart}">
                                 
                             </ListView>
                           

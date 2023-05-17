@@ -37,7 +37,7 @@
                     />
                 <StackLayout Grid.Row="1">
                     <Frame Margin="10,10,10,0" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="50" Padding="0" HorizontalOptions="FillAndExpand">
-                        <Label Text="Student data: 500L Information Technology Department"
+                        <Label Text="Computer Science Department 100L List"
                            FontSize="Medium"
                            FontFamily="Poppins"
                            FontAttributes="Bold"
@@ -51,7 +51,27 @@
                 <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand">
                     <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="500"  Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                             <ListView x:Name="ChooseListofStudentslv" BackgroundColor="Transparent" SeparatorColor="{StaticResource TheBluePart}">
-                                
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell>
+                                            <Grid>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto" />
+                                                </Grid.RowDefinitions>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+
+                                                <Label  Grid.Column="0" Text="{Binding SN}"/>
+                                                <Label  Grid.Column="1" Text="{Binding Matric_No}"/>
+                                                <Label Grid.Column="2" Text="{Binding Fullname}"/>
+                                            </Grid>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+
                             </ListView>
                         </Frame>
                 </StackLayout>

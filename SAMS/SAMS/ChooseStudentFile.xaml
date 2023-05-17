@@ -48,7 +48,7 @@
                         </Frame>
                         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                             <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="500" WidthRequest="35" Padding="0" HorizontalOptions="FillAndExpand">
-                                <ListView x:Name="ChooseStudentFilelv">
+                                <ListView x:Name="ChooseStudentFilelv" BackgroundColor="Transparent" SeparatorColor="{StaticResource TheBluePart}">
 
                                 </ListView>
                             </Frame>
