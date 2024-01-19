@@ -120,82 +120,82 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="ChooseCourseMarkAttendance.xaml.cs">
+    <Compile Update="UI files\ChooseCourseMarkAttendance.xaml.cs">
       <DependentUpon>ChooseCourseMarkAttendance.xaml</DependentUpon>
     </Compile>
-    <Compile Update="DownloadOrSendToMailPopup.xaml.cs">
+    <Compile Update="UI files\DownloadOrSendToMailPopup.xaml.cs">
       <DependentUpon>DownloadOrSendToMailPopup.xaml</DependentUpon>
     </Compile>
-    <Compile Update="ForgotPassword.xaml.cs">
+    <Compile Update="UI files\ForgotPassword.xaml.cs">
       <DependentUpon>ForgotPassword.xaml</DependentUpon>
     </Compile>
-    <Compile Update="LoginPage.xaml.cs">
+    <Compile Update="UI files\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="AddCourse.xaml">
+    <EmbeddedResource Update="UI files\AddCourse.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Advertise.xaml">
+    <EmbeddedResource Update="UI files\Advertise.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="AppInfo.xaml">
+    <EmbeddedResource Update="UI files\AppInfo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="AttendanceRecordPopup.xaml">
+    <EmbeddedResource Update="UI files\AttendanceRecordPopup.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="CheckReport.xaml">
+    <EmbeddedResource Update="UI files\CheckReport.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ChooseCourseCheckReports.xaml">
+    <EmbeddedResource Update="UI files\ChooseCourseCheckReports.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ChooseCourseGivePermission.xaml">
+    <EmbeddedResource Update="UI files\ChooseCourseGivePermission.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ChooseCourseMarkAttendance.xaml">
+    <EmbeddedResource Update="UI files\ChooseCourseMarkAttendance.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ChooseCourseYourAttRec.xaml">
+    <EmbeddedResource Update="UI files\ChooseCourseYourAttRec.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ChooseStudentFile.xaml">
+    <EmbeddedResource Update="UI files\ChooseStudentFile.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Dashboard.xaml">
+    <EmbeddedResource Update="UI files\Dashboard.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="DashboardMisc.xaml">
+    <EmbeddedResource Update="UI files\DashboardMisc.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="DownloadOrSendToMailPopup.xaml">
+    <EmbeddedResource Update="UI files\DownloadOrSendToMailPopup.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="HowToUse.xaml">
+    <EmbeddedResource Update="UI files\HowToUse.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ListofRegisteredStudents.xaml">
+    <EmbeddedResource Update="UI files\ListofRegisteredStudents.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="MarkAttendance.xaml">
+    <EmbeddedResource Update="UI files\MarkAttendance.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="RegAsLecturer.xaml">
+    <EmbeddedResource Update="UI files\RegAsLecturer.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="StudorLecRegistration.xaml">
+    <EmbeddedResource Update="UI files\StudorLecRegistration.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="StudorLecRegPopup.xaml">
+    <EmbeddedResource Update="UI files\StudorLecRegPopup.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ForgotPassword.xaml">
+    <EmbeddedResource Update="UI files\ForgotPassword.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="VerifyMail.xaml">
+    <EmbeddedResource Update="UI files\VerifyMail.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

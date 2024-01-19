@@ -37,7 +37,7 @@
                     />
                 <StackLayout Grid.Row="1">
                     <Frame Margin="10,10,10,0" BorderColor="Transparent" BackgroundColor="Transparent" HeightRequest="50" Padding="0" HorizontalOptions="FillAndExpand">
-                        <Label Text="Computer Science Department 100L List"
+                        <Label Text="Computer Science 400L List"
                            FontSize="Medium"
                            FontFamily="Poppins"
                            FontAttributes="Bold"
@@ -50,7 +50,7 @@
                 </StackLayout>
                 <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand">
                     <Frame Margin="24,10,24,0" BorderColor="{StaticResource TheBluePart}" BackgroundColor="{StaticResource TheAlmostWhite}" CornerRadius="10" HeightRequest="500"  Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                            <ListView x:Name="ChooseListofStudentslv" BackgroundColor="Transparent" SeparatorColor="{StaticResource TheBluePart}">
+                            <ListView x:Name="ChooseListofStudentslv" Margin="20" BackgroundColor="Transparent" SeparatorColor="{StaticResource TheBluePart}">
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
                                         <ViewCell>
@@ -59,14 +59,15 @@
                                                     <RowDefinition Height="Auto" />
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="Auto" />
-                                                    <ColumnDefinition Width="Auto" />
-                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="50"/>
+                                                    <ColumnDefinition Width="50"/>
+                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="*"/>
                                                 </Grid.ColumnDefinitions>
-
-                                                <Label  Grid.Column="0" Text="{Binding SN}"/>
-                                                <Label  Grid.Column="1" Text="{Binding Matric_No}"/>
-                                                <Label Grid.Column="2" Text="{Binding Fullname}"/>
+                                                <CheckBox Grid.Column="0" Color="RoyalBlue"/>
+                                                <Label  Grid.Column="1" Text="{Binding SN}" TextColor ="RoyalBlue" FontSize="Medium" VerticalTextAlignment="Center"/>
+                                                <Label  Grid.Column="2" Text="{Binding Matric_No}" TextColor="RoyalBlue" FontSize="Medium" VerticalTextAlignment="Center"/>
+                                                <Label Grid.Column="3" Text="{Binding Fullname}" TextColor="RoyalBlue" FontSize="Medium" VerticalTextAlignment="Center"/>
                                             </Grid>
                                         </ViewCell>
                                     </DataTemplate>
