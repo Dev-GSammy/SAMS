@@ -1,6 +1,5 @@
 ﻿using System;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 [assembly: ExportFont("Poppins-Black.ttf", Alias = "PoppinsBlack")]
 [assembly: ExportFont("Poppins-BlackItalic.ttf", Alias = "PoppinsBlackItalic")]
 [assembly: ExportFont("Poppins-Bold.ttf", Alias = "PoppinsBold")]
