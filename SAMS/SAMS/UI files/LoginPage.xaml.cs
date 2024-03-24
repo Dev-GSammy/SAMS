@@ -10,7 +10,7 @@ namespace SAMS
         {
             InitializeComponent();
             var assembly = typeof(LoginPage);
-
+            string API_KEY = Environment.GetEnvironmentVariable("SAMS_FIREBASE_API_KEY");
             SplashScreenImage.Source = ImageSource.FromResource("SAMS.Assets.Images.SplashImage.png", assembly);
             //NameEntryIcon.Source = ImageSource.FromResource("SAMS.Assets.Icons.Usercheck.png", assembly);
         }

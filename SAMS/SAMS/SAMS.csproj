@@ -109,8 +109,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="FirebaseDatabase.net" Version="4.2.0" />
-    <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.6" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
   </ItemGroup>
@@ -131,6 +131,9 @@
     </Compile>
     <Compile Update="UI files\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="UI files\StudRegistration.xaml.cs">
+      <DependentUpon>StudRegistration.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -186,7 +189,7 @@
     <EmbeddedResource Update="UI files\RegAsLecturer.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="UI files\StudorLecRegistration.xaml">
+    <EmbeddedResource Update="UI files\StudRegistration.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="UI files\StudorLecRegPopup.xaml">

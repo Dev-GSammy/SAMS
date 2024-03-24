@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,8 +18,16 @@ namespace SAMS
 
         async private void LecRegisterButton_Clicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Confirm Identity","We need to confirm you are a lecturer. \n Please input the OTP sent to your mail.","Okay");
-            await Navigation.PushModalAsync(new VerifyMail());
+            try
+            {
+                await DisplayAlert("Verify Password", "We need to verify your password before you log in. \n Please confirm you're a lecturer by clicking on the link sent to your mail", "Okay");
+            }
+            catch {
+                await DisplayAlert("Registration", "Registration Unsuccessful! \n Please try again later", "Okay");
+            }
+            
+            //await DisplayAlert("Confirm Identity","We need to confirm you are a lecturer. \n Please click on the verification link sent to your mail","Okay");
+            //await Navigation.PushModalAsync(new VerifyMail());
         }
     }
 }
